@@ -76,4 +76,10 @@ class DATABASE_CONFIG {
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
+	
+	public $behance = array(
+    	'datasource' => 'BehanceDatasource',
+		'api_key'     => 'Iul7uIuM6rlZIG209ev7iYBQp4lCW7Wq',
+	);
+	
 }

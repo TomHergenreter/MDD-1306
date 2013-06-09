@@ -43,10 +43,34 @@
 		
 	<div id="content">
 
-			<!--<?php echo $this->Session->flash(); ?>-->
-
-			<!--<?php echo $this->fetch('content'); ?>-->
+		<?php
 		
+			/*$string = file_get_contents("http://www.behance.net/v2/projects/?hex_color=444444&api_key=Iul7uIuM6rlZIG209ev7iYBQp4lCW7Wq");
+			$data=json_decode($string,true);
+			for($i=0; $i<count($data['projects']); $i++) {
+				echo "User Id is:  " . $data['projects'][$i]["id"] . "<br><img src='" . $data['projects'][$i]["covers"]["404"] ."'><br>" ;
+			}
+			
+			$projectid = $json_a['project']['id'];
+			$projectname = $json_a['project']['name'];
+			 
+			$projecturl = $json_a['project']['url'];
+			 
+			$projectimage = $json_a['project']['covers']['404'];
+			 
+			$projectviews = $json_a['project']['stats']['views'];;
+			$projectappre = $json_a['project']['stats']['appreciations'];
+			 
+			$projectdesc = $json_a['project']['description'];
+			
+			echo "<h2>$projectname</h2><img src='$projectimage'>";*/
+		?>
+		
+		
+			<?php echo $this->Session->flash(); ?>
+
+			<?php echo $this->fetch('content'); ?>
+			
 	</div>
 	
 	<?php echo $this->Html->script('foundation.min'); ?>
