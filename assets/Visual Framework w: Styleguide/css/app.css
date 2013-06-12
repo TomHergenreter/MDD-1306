@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body {
+	margin-bottom: 2em;
+}
+
+.color {
+	height: 8em;
+	//border: 2px solid white;
+}
+
+.first {
+	background: #34495e;	
+}
+
+.second {
+	background: #ecf0f1;	
+}
+
+.third {
+	background: #2ecc71;	
+}
+
+.fourth {
+	background: #e74c3c;	
+}
+
+.fifth {
+	background: red;	
+}
+
+.sixth {
+	background: red;	
+}
+
+body {
+background: #2a3a4b;
+}
+ 
+button,.button {
+cursor:pointer;
+font-family:"Istok Web";
+font-weight:400;
+line-height:1;
+position:relative;
+text-decoration:none;
+text-align:center;
+display:inline-block;
+font-size:1.1em;
+background-color:#2ecc71;
+color:#ecf0f1;
+border-radius:5px;
+-webkit-border-radius:5px;
+border:none;
+border-color:none;
+border-style:none;
+border-width:0;
+margin:0 0 1.25em;
+padding:.7em 5.75em;
+}
+
+h3 {
+color:#FFF;
+font-family:Lato;
+font-weight:400;
+}
+
+button:hover,button:focus,.button:hover,.button:focus {
+background-color:#58d68d;
+color:#ecf0f1;
+}
+
+button.alert,.button.alert {
+background-color:#e74c3c;
+color:#ecf0f1;
+border:none;
+border-color:none;
+}
+
+button.alert:hover,button.alert:focus,.button.alert:hover,.button.alert:focus {
+background-color:#ec7063;
+color:#ecf0f1;
+}
+
+fieldset {
+background:#ecf0f1;
+border:none;
+border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+input[type="text"],input[type="password"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="month"],input[type="week"],input[type="email"],input[type="number"],input[type="search"],input[type="tel"],input[type="time"],input[type="url"],textarea {
+background-color:#FFF;
+font-family:"Istok Web";
+border:none;
+border-radius:5px;
+-webkit-border-radius:5px;
+-webkit-box-shadow:none;
+box-shadow:none;
+color:#bdc0c1;
+display:block;
+font-size:1em;
+height:2.3125em;
+width:100%;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+-webkit-transition:0 .45s border-color .45s ease-in-out;
+-moz-transition:0 .45s border-color .45s ease-in-out;
+transition:box-shadow .45s border-color .45s ease-in-out;
+margin:0 0 1em;
+padding:.5em;
+}
+
+input[type="text"]:focus,input[type="password"]:focus,input[type="date"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="month"]:focus,input[type="week"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="time"]:focus,input[type="url"]:focus,textarea:focus {
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+box-shadow:none;
+color:#2a3a4b;
+background:#fff;
+outline:none;
+border-color:none;
+}
+
+input[type="text"][disabled],input[type="password"][disabled],input[type="date"][disabled],input[type="datetime"][disabled],input[type="datetime-local"][disabled],input[type="month"][disabled],input[type="week"][disabled],input[type="email"][disabled],input[type="number"][disabled],input[type="search"][disabled],input[type="tel"][disabled],input[type="time"][disabled],input[type="url"][disabled],textarea[disabled] {
+background-color:grey;
+}
+
+.error input,input.error,.error textarea,textarea.error {
+border:2px solid #e74c3c;
+color:#e74c3c;
+background:#FFF;
+}
+
+.error input:focus,input.error:focus,.error textarea:focus,textarea.error:focus {
+background:#fafafa;
+border-color:#999;
+}
+
+.valid input,input.valid,.error textarea,textarea.valid {
+border:2px solid #2ecc71;
+color:#2ecc71;
+background:#FFF;
+}
+
+.preview {
+	background: #ecf0f1;
+	padding: 1.7em .5em;
+}
+
+.top-bar {
+  overflow: hidden;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  background: #ecf0f1;
+  margin-bottom: 1.875em;
+  font-family: "Istok Web";
+  font-weight: normal; 
+}
+
+.top-bar-section li a:not(.button){
+	background: #ecf0f1;
+}
+
+.top-bar-section ul li > a {
+	font-weight: normal;
+	font-family: "Istok Web";
+}
+
+.top-bar .name h1 a {
+	font-family: "Istok Web";
+	color: #34495e;
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	border-color: white;
+}
+
+.top-bar input {
+	height: 1.75em;
+	border: 2px #bdc0c1 solid;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	color: black;
+}
+
+.top-bar.expanded {
+	background: #ecf0f1;
+}
+
+.top-bar .name h1 {
+	background: #ecf0f1;
+}
