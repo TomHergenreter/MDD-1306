@@ -6,6 +6,17 @@ body {
 	background: #2a3a4b;
 }
 
+/*---------- Links ----------*/
+
+a {
+  color: #2ecc71;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #2795b6; }
+  a img {
+    border: none; }
+
 /*----------Colors----------*/
 
 .color {
@@ -44,111 +55,139 @@ a.medium.button {
 }
  
 button,.button {
-cursor:pointer;
-font-family:"Istok Web";
-font-weight:400;
-line-height:1;
-position:relative;
-text-decoration:none;
-text-align:center;
-display:inline-block;
-font-size:1.1em;
-background-color:#2ecc71;
-color:#ecf0f1;
-border-radius:5px;
--webkit-border-radius:5px;
-border:none;
-border-color:none;
-border-style:none;
-border-width:0;
-margin:0 0 1.25em;
-padding:.7em 5.75em;
--webkit-box-shadow: none;
-box-shadow: none;
+	cursor:pointer;
+	font-family:"Istok Web";
+	font-weight:400;
+	line-height:1;
+	position:relative;
+	text-decoration:none;
+	text-align:center;
+	display:inline-block;
+	font-size:1.1em;
+	background-color:#2ecc71;
+	color:#ecf0f1;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	border-color:none;
+	border-style:none;
+	border-width:0;
+	margin:0 0 .75em;
+	padding:.7em 5.75em;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 100%;
 }
 
 h3 {
-color:#FFF;
-font-family:Lato;
-font-weight:400;
+	color:#FFF;
+	font-family:Lato;
+	font-weight:400;
 }
 
 button:hover,button:focus,.button:hover,.button:focus {
-background-color:#58d68d;
-color:#ecf0f1;
+	background-color:#58d68d;
+	color:#ecf0f1;
 }
 
 button.alert,.button.alert {
-background-color:#e74c3c;
-color:#ecf0f1;
-border:none;
-border-color:none;
+	background-color:#e74c3c;
+	color:#ecf0f1;
+	border:none;
+	border-color:none;
 }
 
 button.alert:hover,button.alert:focus,.button.alert:hover,.button.alert:focus {
-background-color:#ec7063;
-color:#ecf0f1;
+	background-color:#ec7063;
+	color:#ecf0f1;
+}
+
+@media only screen and (min-width: 768px) {
+	button, .button {
+		width: auto;
+	}
 }
 
 /*----------Forms----------*/
 
+form h3 {
+	background: #2ecc71;
+	margin-bottom: 0px;
+	padding: .25em .5em;
+}
+
 fieldset {
-background:#ecf0f1;
-border:none;
-border-radius:5px;
--webkit-border-radius:5px;
+	background:#ecf0f1;
+	border:none;
+	margin-top: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	padding-bottom: 0px;
+}
+
+fieldset p {
+	font-size: .8em;
+	margin-bottom: 1em;
+	text-align: left;
+	color: #bdc0c1;
 }
 
 input[type="text"],input[type="password"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="month"],input[type="week"],input[type="email"],input[type="number"],input[type="search"],input[type="tel"],input[type="time"],input[type="url"],textarea {
-background-color:#FFF;
-font-family:"Istok Web";
-border:none;
-border-radius:5px;
--webkit-border-radius:5px;
--webkit-box-shadow:none;
-box-shadow:none;
-color:#bdc0c1;
-display:block;
-font-size:1em;
-height:2.3125em;
-width:100%;
--moz-box-sizing:border-box;
--webkit-box-sizing:border-box;
-box-sizing:border-box;
--webkit-transition:0 .45s border-color .45s ease-in-out;
--moz-transition:0 .45s border-color .45s ease-in-out;
-transition:box-shadow .45s border-color .45s ease-in-out;
-margin:0 0 1em;
-padding:.5em;
+	background-color:#FFF;
+	font-family:"Istok Web";
+	border:none;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	color:#bdc0c1;
+	display:block;
+	font-size:1em;
+	height:2.3125em;
+	width:100%;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-transition:0 .45s border-color .45s ease-in-out;
+	-moz-transition:0 .45s border-color .45s ease-in-out;
+	transition:box-shadow .45s border-color .45s ease-in-out;
+	margin:0 0 1em;
+	padding:.5em;
 }
 
 input[type="text"]:focus,input[type="password"]:focus,input[type="date"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="month"]:focus,input[type="week"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="time"]:focus,input[type="url"]:focus,textarea:focus {
--webkit-box-shadow:none;
--moz-box-shadow:none;
-box-shadow:none;
-color:#2a3a4b;
-background:#fff;
-outline:none;
-border-color:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	color:#2a3a4b;
+	background:#fff;
+	outline:none;
+	border-color:none;
 }
 
 input[type="text"][disabled],input[type="password"][disabled],input[type="date"][disabled],input[type="datetime"][disabled],input[type="datetime-local"][disabled],input[type="month"][disabled],input[type="week"][disabled],input[type="email"][disabled],input[type="number"][disabled],input[type="search"][disabled],input[type="tel"][disabled],input[type="time"][disabled],input[type="url"][disabled],textarea[disabled] {
-background-color:grey;
+	background-color:grey;
 }
 
 .error input,input.error,.error textarea,textarea.error, .error input:focus,input.error:focus,.error textarea:focus,textarea.error:focus {
-border:2px solid #e74c3c;
-color:#e74c3c;
-background:#FFF;
-background: url(../img/icons/xIcon.png) no-repeat scroll 98% 9px #ffffff;
-background-size: 17px;
+	border:2px solid #e74c3c;
+	color:#e74c3c;
+	background:#FFF;
+	background: url(../img/icons/xIcon.png) no-repeat scroll 98% 9px #ffffff;
+	background-size: 17px;
 }
 
 .valid input, input.valid, .valid textarea, textarea.valid, .valid input:focus,input.valid:focus,.valid textarea:focus,textarea.valid:focus {
-border:2px solid #2ecc71;
-color:#2ecc71;
-background: url(../img/icons/checkIcon.png) no-repeat scroll 98% 9px #ffffff;
-background-size: 20px;
+	border:2px solid #2ecc71;
+	color:#2ecc71;
+	background: url(../img/icons/checkIcon.png) no-repeat scroll 98% 9px #ffffff;
+	background-size: 20px;
 }
 
 .user input, input.user, .user textarea, textarea.user, .user input:focus, input.user:focus, .user textarea:focus, textarea.user:focus {
@@ -187,7 +226,8 @@ background-size: 20px;
 .top-bar .name h1 a {
 	font-family: "Istok Web";
 	color: #34495e;
-	font-size: 3em;
+	font-size: 1.5em;
+	margin-top: .1em;
 }
 
 .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
@@ -216,4 +256,42 @@ background-size: 20px;
 	background-size: 17px;
 	border: 2px #bdc0c1 solid;	
 	color: #34495e;
+}
+
+<!-- Image Grid -->
+
+.preview-wrapper img {
+	display: block;
+}
+
+.preview-wrapper {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.preview {
+  width: 20%;
+  margin: 4.2% 2.5%;
+  float: left;
+  background: #fff;
+}
+
+.preview p {
+	text-align: right;
+}
+
+.inlineImg {
+	position: absolute;
+	left: 0;
+	height: 15px;
+	clear: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.preview {
+		float: none;
+		margin: 4em auto;
+		width: 65%;	
+	}
 }

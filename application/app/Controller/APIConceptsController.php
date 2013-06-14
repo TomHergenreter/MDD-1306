@@ -8,4 +8,12 @@ class APIConceptsController extends AppController {
     public function index() {
         $this->set('projects', $this->APIConcept->find('all'));
     }
+    
+    public function signUp() {
+	    
+    }
+    
+    public function inspirations() {
+	    
+    }
 }

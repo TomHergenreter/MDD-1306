@@ -11,11 +11,11 @@
 		<!-- Left Nav Section -->
 		<ul class="left">
 			<li class="divider"></li>
-			<li><a href="#"><img src="img/icons/homeIcon.png"></a></li>
+			<li><?php echo $this->Html->image("icons/homeIcon.png", array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'index'))); ?></li>
 			<li class="divider"></li>
-			<li><a href="#"><img src="img/icons/heartIcon.png"></a></li>
+			<li><?php echo $this->Html->image("icons/heartIcon.png", array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'index'))); ?></li>
 			<li class="divider"></li>
-			<li><a href="#"><img src="img/icons/cogIcon.png"></a></li>
+			<li><?php echo $this->Html->image("icons/cogIcon.png", array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'index'))); ?></li>
 			<li class="divider"></li>
 		</ul>
 		</section>
@@ -34,7 +34,7 @@
 	</nav>
 	
 
-	<!--Sign In Form -->
+	<!--Sign Up Form -->
 	<div class="row">
 		<div class="large-12 columns">
 			<div class="large-6 large-centered columns signIn">
@@ -43,22 +43,40 @@
 					<fieldset>
 						<div class="row">
 							<div class="large-12 columns">
-								<input type="text" class="user" placeholder="Username">
+								<input type="text" class="user" placeholder="Username*">
 							</div>
 						</div>
 						<div class="row">
 							<div class="large-12 columns">
-								<input type="password" class="pass" placeholder="Password">
+								<input type="password" class="pass" placeholder="Password*">
 							</div>
 						</div>
 						<div class="row">
 							<div class="large-12 columns">
-								<input type="submit" class="medium button" text="Sign In">
+								<input type="text" placeholder="First Name*">
 							</div>
 						</div>
 						<div class="row">
 							<div class="large-12 columns">
-								<p>Not a member? <?php echo $this->Html->link(" Sign Up!", array('controller' => 'APIConcepts', 'action' => 'signUp')); ?></p>
+								<input type="text" placeholder="Last Name*">
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns">
+								<input type="email" placeholder="Email Address*">
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-8 columns">
+								<input type="submit" class="medium button" text="beINSPIRED">
+							</div>
+							<div class="large-4 columns">
+								
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns">
+								<p>by clicking beINSPIRED, you agree to the <a>Terms of Service</a></p>
 							</div>
 						</div>
 					</fieldset>

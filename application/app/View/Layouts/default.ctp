@@ -33,6 +33,7 @@
 		echo $this->Html->meta(array("name"=>"author", "content"=>"TheHappyDeveloper.com - @happyDeveloper"));
 		
 		echo $this->Html->css('foundation');
+		echo $this->Html->css('app');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -73,6 +74,6 @@
 			
 	</div>
 	
-	<?php echo $this->Html->script('foundation.min'); ?>
+	<?php echo $this->Html->script('foundation.min.js'); ?>
 </body>
 </html>
