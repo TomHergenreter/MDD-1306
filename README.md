@@ -3,10 +3,14 @@ MDD-1306
 
 Full Sail University - Mobile Device Deployment - Tom Hergenreter
 
-Download application to local server, and set local host document root to application/app/webroot. API proof of concept page will be at (yourLocalHost)/APIConcepts. 
+Download application to local server, and set local host document root to application/app/webroot. Navigate to (yourLocalHost) in your web browser to create a new account, and log in. 
 
-database configuration can be found in app/config/database.php
+Before logging in, database must be configured using most recent MDD SQL dump. Configuration with instructions can be found in app/config/database.php
 
-example: localhost/APIConcepts 
+Default username: root
+
+Default password: password
+
+
 
 
