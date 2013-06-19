@@ -258,49 +258,100 @@ input[type="text"][disabled],input[type="password"][disabled],input[type="date"]
 	color: #34495e;
 }
 
-<!-- Image Grid -->
+/*---------- Image Grid ----------*/
 
-.preview-wrapper img {
-	display: block;
-}
-
-.preview-wrapper {
-	width: 90%;
+.grid-wrapper {
+	width: 1080px;
+	max-width: 80%;
 	margin: 0 auto;
 	overflow: hidden;
+	position: relative;
 }
 
-.preview {
-  width: 20%;
-  margin: 4.2% 2.5%;
-  float: left;
-  background: #fff;
-  padding: 0 .5em;
-  font-family: "Istok Web";
+.preview ul {
+	width: 80%
 }
 
-.preview h4 {
-	font-size: 1.2em;
+.preview li {
+	width: 66%;
+	list-style: none;
+	float: left;
+	background: #ecf0f1;
+	position: relative;
+	overflow: hidden;
+	margin: 5% 16%;
 }
 
-.preview p {
-	text-align: right;
-	font-size: .8em;
-	margin-bottom: 0px;
-	padding: .8em; 
+.preview img {
+	display: block;
+	max-width: 100%;
+	transition: all .3s ease-in .2s;
+	-webkit-transition: all .3s ease-in .2s;
+	-moz-transition: all .3s ease-in .2s;
 }
 
-.inlineImg {
-	position: absolute;
-	left: 0;
-	height: 10px;
-	clear: none;
+.caption {
+  position: absolute;
+  bottom: -40px;
+  height: 60px;
+  width: 100%;
+  padding: 20px 10px 20px 10px;
+  transition: all .3s ease-in .2s;
+  -webkit-transition: all .3s ease-in .2s;
+  -moz-transition: all .3s ease-in .2s; 
+  background: #ecf0f1;
 }
 
-@media only screen and (max-width: 768px) {
-	.preview {
-		float: none;
-		margin: 4em auto;
-		width: 65%;	
+.caption:after {
+ content: "";  
+ border-left: 8px solid transparent;
+ border-right: 8px solid transparent;
+ border-bottom: 8px solid #2ecc71;
+ position: absolute;
+ top: 5px;
+ left: 50%;
+ margin-left: -8px; 
+} 
+
+.caption h4 {
+  font: normal .9em/1.2em "Helvetica Neue", helvetica;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 5px;
+}
+
+.imgOpen {
+  max-width: 100%;
+  left: 0;  
+}
+
+.open {
+    bottom: 0px;
+}
+
+.caption a img {
+	width: 32px;
+	display: inline;
+	padding: 0 5px 0 0;
+}
+
+@media only screen and (min-width: 620px) {
+	
+	.preview li {
+		width: 46%;
+		margin: 2%;
 	}
+	
 }
+
+@media only screen and (min-width: 960px) {
+	
+	.preview li {
+		width: 30%;
+		margin: 1.1%;
+	}
+	
+}
+
+
+

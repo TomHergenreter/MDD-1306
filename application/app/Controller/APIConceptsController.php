@@ -14,6 +14,6 @@ class APIConceptsController extends AppController {
     }
     
     public function inspirations() {
-	    
+	  	$this->set('projects', $this->APIConcept->find('all'));  
     }
 }

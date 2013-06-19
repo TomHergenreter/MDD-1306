@@ -35,37 +35,39 @@
 	</nav>
 
 	<!-- Image Grid -->
-	<div class="preview-wrapper">
-		<div class="preview">
-			<h4>Image Name <span>Byline</span></h4>
-			<img src="http://www.placecage.com/g/350/250">
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="row">
-						<div class="large-4 large-offset-2 columns">
-							<?php echo $this->Html->image("icons/eyeIcon.png", array("alt" => "Home", "class" => "inlineImg")); ?>
-							<p>Views</p>
-						</div>
-						<div class="large-6 columns">
-							<p>Appreciations</p>
-						</div>
-					</div>
+	<div class="grid-wrapper">
+		<ul class="preview">
+			<!--<li>
+				<img src="http://placecage.com/g/320/310">
+				<div class="caption">
+					<p>This is a picture of Bill Murray</p>
 				</div>
-			</div>
-		</div>
-		<div class="preview">
-			<img src="http://www.placecage.com/g/350/250">
-		</div>
-		<div class="preview">
-			<img src="http://www.placecage.com/g/350/250">
-		</div>
-		<div class="preview">
-			<img src="http://www.placecage.com/g/350/250">
-		</div>
-		<div class="preview">
-			<img src="http://www.placecage.com/g/350/250">
-		</div>
-		<div class="preview">
-			<img src="http://www.placecage.com/g/350/250">
-		</div>
+			</li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>
+			<li><img src="http://placecage.com/g/320/310"></li>-->
+			<?php
+				foreach ($projects['APIConcept']['projects'] as $project): 
+						
+					echo
+										
+					"<li>
+						<img src='" . $project['covers']['404'] . "'>
+						<div class='caption'>
+							<p><a href=''><img src='" . $project['owners'][0]['images']['50'] . "'</a>" . $project['owners'][0]['first_name'] . " " . $project['owners'][0]['last_name'] . "</p>
+						</div>
+					</li>";
+						
+				endforeach; 
+			?>
+		</ul>
 	</div>
+	

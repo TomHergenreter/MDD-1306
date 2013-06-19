@@ -807,3 +807,128 @@ Stack Trace:
 #1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
 #2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-06-15 04:30:12 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-15 04:30:27 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/APIConcepts
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 02:02:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/demos/demo2.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 02:02:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/demos/demo3.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 02:02:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/demos/demo4.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 03:01:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/foundation/foundation.min.js
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 03:02:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/foundation/foundation.min.js
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 03:03:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 03:07:35 Error: [MissingActionException] Action APIConceptsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'img',
+)
+Request URL: /APIConcepts/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 03:07:35 Error: [MissingActionException] Action APIConceptsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'img',
+)
+Request URL: /APIConcepts/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 03:07:35 Error: [MissingActionException] Action APIConceptsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'img',
+)
+Request URL: /APIConcepts/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 03:13:11 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 72]
+2013-06-19 03:13:11 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 72, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 72, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-19 03:26:59 Error: Fatal Error (4): syntax error, unexpected '$project' (T_VARIABLE), expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 65]
+2013-06-19 03:26:59 Error: [FatalErrorException] syntax error, unexpected '$project' (T_VARIABLE), expecting ',' or ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 65, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 65, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -74,6 +74,10 @@
 			
 	</div>
 	
-	<?php echo $this->Html->script('foundation.min.js'); ?>
+	<?php 
+		echo $this->Html->script('vendor/jquery.js');
+		echo $this->Html->script('foundation.min.js');
+		echo $this->Html->script('reveal.js');
+	?>
 </body>
 </html>
