@@ -932,3 +932,653 @@ Stack Trace:
 #3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-06-19 05:33:38 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:33:38 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:33:38 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:34:02 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:34:04 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:34:04 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:37:19 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:37:19 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:37:19 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:37:24 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:37:24 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:37:24 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:38:04 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:38:04 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:38:04 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:41:15 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:46:39 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:46:39 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:46:39 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:46:51 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-19 05:51:42 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-19 05:51:49 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-19 05:57:08 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:57:08 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 05:57:08 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:02:41 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:02:41 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:02:41 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:07:37 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:07:37 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:07:37 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:08:33 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:08:33 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:08:33 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:08:34 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:08:34 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:08:34 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:09:59 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:09:59 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:09:59 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:10:01 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:10:01 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:10:01 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:10:49 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:10:49 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:10:49 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:10:52 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:10:52 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:10:52 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:11:32 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:11:32 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:11:32 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:11:40 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:11:40 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:11:40 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:18:26 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/cogIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:18:26 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/heartIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:18:26 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Users/img/icons/homeIcon.png
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-19 06:27:14 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

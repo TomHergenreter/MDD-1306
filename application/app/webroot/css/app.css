@@ -226,7 +226,7 @@ input[type="text"][disabled],input[type="password"][disabled],input[type="date"]
 .top-bar .name h1 a {
 	font-family: "Istok Web";
 	color: #34495e;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	margin-top: .1em;
 }
 
@@ -256,6 +256,10 @@ input[type="text"][disabled],input[type="password"][disabled],input[type="date"]
 	background-size: 17px;
 	border: 2px #bdc0c1 solid;	
 	color: #34495e;
+}
+
+nav img {
+	margin: 0 auto;
 }
 
 /*---------- Image Grid ----------*/
