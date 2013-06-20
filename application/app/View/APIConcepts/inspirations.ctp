@@ -39,16 +39,20 @@
 		<ul class="preview">
 			<?php
 				foreach ($projects['APIConcept']['projects'] as $project): 
-						
-					echo
-										
-					"<li>
-						<img src='" . $project['covers']['404'] . "'>
-						<div class='caption'>
-							<p><a href=''><img src='" . $project['owners'][0]['images']['50'] . "'</a>" . $project['owners'][0]['first_name'] . " " . $project['owners'][0]['last_name'] . "</p>
-						</div>
-					</li>";
-						
+					
+					if(isset($project['covers']['404'])){	
+						echo
+									
+						"<li>
+							<img src='" . $project['covers']['404'] . "'>
+							<div class='caption'>
+								<p><a href=''><img src='" . $project['owners'][0]['images']['50'] . "'</a>" . $project['owners'][0]['first_name'] . " " . $project['owners'][0]['last_name'] . "</p>
+							</div>
+						</li>";
+					}else{
+						echo
+						 "<li>" . $this->Html->image( 'noLoadImage.jpg' , array('alt' => 'Sorry, image unable to load')) . "</li>";
+					}	
 				endforeach; 
 			?>
 		</ul>

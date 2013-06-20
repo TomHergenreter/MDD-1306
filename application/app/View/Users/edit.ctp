@@ -33,12 +33,13 @@
 		</ul>
 	</nav>
 	
+	<!-- Flash Message -->
 	<div class="row">
 		<div class="large-12 columns">
-			<div class="large-6 large-centered columns alert">
-        		<p><?php echo $this->Session->flash(); ?></p>
+			<div class="large-6 large-centered columns">
+	        		<p><?php echo $this->Session->flash(); ?></p>
 			</div>
-		</div>
+		</div>	
     </div>
 	
 	<!-- Update Form -->
@@ -79,6 +80,7 @@
 								<ul class="inline-list">
 								 	<li><?php echo $this->Html->Link("Logout", array( 'controller' => 'Users', 'action' => 'logout')); ?></li>
 								 	<li><?php echo $this->Html->Link("Delete Account", array( 'controller' => 'Users', 'action' => 'delete/' . $id)); ?></li>
+								 	<li><?php echo $this->Html->Link("Reset Password", array( 'controller' => 'Users', 'action' => 'edit/' . $id )); ?></li>
 								</ul>
 							</div>
 						</div>		
@@ -87,6 +89,8 @@
 			</div>
 		</div>
 	</div>
+	
+	
 	
 	
 	

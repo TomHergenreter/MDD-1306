@@ -2982,3 +2982,199 @@ Stack Trace:
 #3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2013-06-21 00:52:24 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 45]
+2013-06-21 00:52:24 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 45, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 45, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 00:52:54 Error: Fatal Error (1): Call to undefined function exists() in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 43]
+2013-06-21 00:52:54 Error: [FatalErrorException] Call to undefined function exists()
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/thergenr...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/thergenr...', 43, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/thergenr...', 43, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:12:24 Error: Fatal Error (4): syntax error, unexpected 'noLoadImage' (T_STRING), expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 56]
+2013-06-21 01:12:24 Error: [FatalErrorException] syntax error, unexpected 'noLoadImage' (T_STRING), expecting ',' or ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 56, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 56, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:12:49 Error: Fatal Error (4): syntax error, unexpected 'alt' (T_STRING), expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 56]
+2013-06-21 01:12:49 Error: [FatalErrorException] syntax error, unexpected 'alt' (T_STRING), expecting ',' or ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 56, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 56, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:13:35 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 56]
+2013-06-21 01:13:35 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 56, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 56, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:13:52 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 56]
+2013-06-21 01:13:52 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 56, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 56, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:13:58 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 57]
+2013-06-21 01:13:58 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 57, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 57, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:14:14 Error: Fatal Error (4): syntax error, unexpected '}' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 58]
+2013-06-21 01:14:14 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 58, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 58, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:15:51 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 55]
+2013-06-21 01:15:52 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 55, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 55, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:17:39 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 54]
+2013-06-21 01:17:39 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 54, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 54, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:22:36 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/edit.ctp, line 83]
+2013-06-21 01:22:36 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Users/edit/2
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 83, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 83, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-21 01:23:11 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users/
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-21 01:23:26 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users/
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-21 01:23:39 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-21 01:23:52 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-21 01:23:56 Error: [MissingActionException] Action UsersController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '2',
+)
+Request URL: /Users/2
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-21 01:24:07 Error: [MissingActionException] Action UsersController::edit2() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit2',
+)
+Request URL: /Users/edit2
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-21 01:24:19 Error: [MissingActionException] Action UsersController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '2',
+)
+Request URL: /Users/2
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-21 01:24:25 Error: [MissingActionException] Action UsersController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '2',
+)
+Request URL: /Users/2
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

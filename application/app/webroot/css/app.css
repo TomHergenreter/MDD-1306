@@ -147,7 +147,7 @@ input[type="text"],input[type="password"],input[type="date"],input[type="datetim
 	-webkit-border-radius:5px;
 	-webkit-box-shadow:none;
 	box-shadow:none;
-	color:#bdc0c1;
+	color: #34495e;
 	display:block;
 	font-size:1em;
 	height:2.3125em;
@@ -360,11 +360,13 @@ nav img {
 
 /*---------- Alert Box ----------*/
 
-.alert p {
-	color: red;
+#flashMessage {
+	color: #34495e;
+	padding: 10px;
 	background: #ecf0f1;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	margin: 0px;
 }
 
 
