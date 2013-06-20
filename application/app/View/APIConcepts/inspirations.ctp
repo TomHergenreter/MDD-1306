@@ -12,11 +12,11 @@
 		<!-- Left Nav Section -->
 		<ul class="left">
 			<li class="divider"></li>
-			<li><?php echo $this->Html->image("icons/homeIcon.png", array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'index'))); ?></li>
+			<li><?php echo $this->Html->image("icons/homeIcon.png", array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'inspirations'))); ?></li>
 			<li class="divider"></li>
 			<li><?php echo $this->Html->image("icons/heartIcon.png", array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'index'))); ?></li>
 			<li class="divider"></li>
-			<li><?php echo $this->Html->image("icons/cogIcon.png", array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'index'))); ?></li>
+			<li><?php echo $this->Html->image("icons/cogIcon.png", array("alt" => "Home",'url' => array('controller' => 'Users', 'action' => 'edit/' . $this->request->data('id')))); ?></li>
 			<li class="divider"></li>
 		</ul>
 		</section>
@@ -37,23 +37,6 @@
 	<!-- Image Grid -->
 	<div class="grid-wrapper">
 		<ul class="preview">
-			<!--<li>
-				<img src="http://placecage.com/g/320/310">
-				<div class="caption">
-					<p>This is a picture of Bill Murray</p>
-				</div>
-			</li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>
-			<li><img src="http://placecage.com/g/320/310"></li>-->
 			<?php
 				foreach ($projects['APIConcept']['projects'] as $project): 
 						

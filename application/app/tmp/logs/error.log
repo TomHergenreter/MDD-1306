@@ -1591,3 +1591,1137 @@ Request URL: /logout
 Stack Trace:
 #0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-06-19 06:52:43 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-19 06:52:54 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-19 06:56:28 Error: [NotFoundException] Invalid user
+Request URL: /Users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-19 06:56:32 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users/index
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-19 06:58:59 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /users/delete
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 01:47:42 Error: [CakeException] 0
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Model/Model.php(2696): BehanceDatasource->read(Object(APIConcept), Array)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/APIConceptsController.php(17): Model->find('all')
+#2 [internal function]: APIConceptsController->inspirations()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-20 01:48:16 Error: [CakeException] 0
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Model/Model.php(2696): BehanceDatasource->read(Object(APIConcept), Array)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/APIConceptsController.php(17): Model->find('all')
+#2 [internal function]: APIConceptsController->inspirations()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-20 01:50:04 Error: [CakeException] 0
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Model/Model.php(2696): BehanceDatasource->read(Object(APIConcept), Array)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/APIConceptsController.php(17): Model->find('all')
+#2 [internal function]: APIConceptsController->inspirations()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-20 01:50:30 Error: [CakeException] 0
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Model/Model.php(2696): BehanceDatasource->read(Object(APIConcept), Array)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/APIConceptsController.php(17): Model->find('all')
+#2 [internal function]: APIConceptsController->inspirations()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-20 01:51:05 Error: [CakeException] 0
+Request URL: /APIConcepts
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Model/Model.php(2696): BehanceDatasource->read(Object(APIConcept), Array)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/APIConceptsController.php(9): Model->find('all')
+#2 [internal function]: APIConceptsController->index()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-20 01:51:11 Error: [CakeException] 0
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Model/Model.php(2696): BehanceDatasource->read(Object(APIConcept), Array)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/APIConceptsController.php(17): Model->find('all')
+#2 [internal function]: APIConceptsController->inspirations()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-20 01:51:22 Error: [CakeException] 0
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Model/Model.php(2696): BehanceDatasource->read(Object(APIConcept), Array)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/APIConceptsController.php(17): Model->find('all')
+#2 [internal function]: APIConceptsController->inspirations()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-20 01:54:08 Error: [CakeException] 0
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Model/Model.php(2696): BehanceDatasource->read(Object(APIConcept), Array)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/APIConceptsController.php(17): Model->find('all')
+#2 [internal function]: APIConceptsController->inspirations()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-20 02:01:35 Error: [CakeException] 0
+Request URL: /APIConcepts
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Model/Model.php(2696): BehanceDatasource->read(Object(APIConcept), Array)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/APIConceptsController.php(9): Model->find('all')
+#2 [internal function]: APIConceptsController->index()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-20 02:12:01 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:12:08 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:12:26 Error: [MissingActionException] Action APIConceptsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'logout',
+)
+Request URL: /APIConcepts/logout
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-20 02:12:41 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:16:53 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:16:55 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:18:34 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:18:59 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:20:12 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:20:25 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:23:24 Error: [MissingActionException] Action APIConceptsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'logout',
+)
+Request URL: /APIConcepts/logout
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-20 02:25:24 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /users/index
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:30:12 Error: [NotFoundException] Invalid user
+Request URL: /users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:30:42 Error: [NotFoundException] Invalid user
+Request URL: /users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:32:15 Error: [NotFoundException] Invalid user
+Request URL: /users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:32:17 Error: [NotFoundException] Invalid user
+Request URL: /users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:42:14 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Layouts/default.ctp(70): View->__get('Auth')
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(947): include('/Users/thergenr...')
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(909): View->_evaluate('/Users/thergenr...', Array)
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(535): View->_render('/Users/thergenr...')
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#8 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#9 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-20 02:42:23 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Layouts/default.ctp(70): View->__get('Auth')
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(947): include('/Users/thergenr...')
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(909): View->_evaluate('/Users/thergenr...', Array)
+#5 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(535): View->_render('/Users/thergenr...')
+#6 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#8 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#9 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-20 02:45:39 Error: [NotFoundException] Invalid user
+Request URL: /users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:46:18 Error: [NotFoundException] Invalid user
+Request URL: /users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:47:31 Error: [NotFoundException] Invalid user
+Request URL: /users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:48:45 Error: [NotFoundException] Invalid user
+Request URL: /users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:50:12 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:50:31 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:51:02 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:51:05 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:51:15 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:51:16 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:51:16 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:51:33 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:52:18 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 02:52:23 Error: [MissingActionException] Action UsersController::profile() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'profile',
+)
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-20 02:53:47 Error: [MissingActionException] Action UsersController::profile() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'profile',
+)
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-20 02:53:49 Error: [MissingActionException] Action UsersController::profile() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'profile',
+)
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-20 02:53:54 Error: [MissingActionException] Action UsersController::profile() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'profile',
+)
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-20 02:56:33 Error: Fatal Error (4): syntax error, unexpected '[' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 16]
+2013-06-20 02:56:33 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 02:57:15 Error: Fatal Error (4): syntax error, unexpected '[' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 16]
+2013-06-20 02:57:15 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 02:57:17 Error: Fatal Error (4): syntax error, unexpected '[' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 16]
+2013-06-20 02:57:17 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 02:57:17 Error: Fatal Error (4): syntax error, unexpected '[' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 16]
+2013-06-20 02:57:17 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 02:57:31 Error: Fatal Error (4): syntax error, unexpected '[' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 16]
+2013-06-20 02:57:31 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 02:57:33 Error: Fatal Error (4): syntax error, unexpected '[' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 16]
+2013-06-20 02:57:33 Error: [FatalErrorException] syntax error, unexpected '['
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 16, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 03:10:15 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 27]
+2013-06-20 03:10:15 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 27, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 27, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 03:15:53 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 23]
+2013-06-20 03:15:53 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 03:16:12 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 23]
+2013-06-20 03:16:12 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 03:16:14 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 23]
+2013-06-20 03:16:14 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 03:16:55 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 23]
+2013-06-20 03:16:55 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 03:17:28 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 23]
+2013-06-20 03:17:28 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 03:17:29 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/profile.ctp, line 23]
+2013-06-20 03:17:30 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 23, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 05:39:26 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 05:41:59 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 05:43:42 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 05:47:29 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 05:54:43 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 05:56:20 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 05:56:48 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 05:59:42 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 06:01:30 Error: [MissingActionException] Action UsersController::deit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'deit',
+)
+Request URL: /Users/deit
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-20 06:02:10 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 06:07:32 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 06:07:45 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/UsersController.php, line 85]
+2013-06-20 06:07:45 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /Users/edit
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 85, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 85, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 06:21:54 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 06:43:12 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 06:44:13 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 06:45:25 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/UsersController.php, line 56]
+2013-06-20 06:45:25 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /Users/edit
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 56, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 56, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 06:45:36 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 06:55:07 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:01:51 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:02:04 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:02:44 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:05:37 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:20:16 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:20:53 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:21:47 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:22:14 Error: Fatal Error (1): Cannot use object of type User as array in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/UsersController.php, line 55]
+2013-06-20 07:22:14 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /Users/edit
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/Users/thergenr...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/Users/thergenr...', 55, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/Users/thergenr...', 55, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 07:22:33 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:32:23 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 07:32:35 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:19:10 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:19:13 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:19:16 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:19:17 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:19:18 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:19:18 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:19:19 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:20:30 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:20:33 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:20:48 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:20:50 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:20:51 Error: [NotFoundException] Invalid user
+Request URL: /Users/profile
+Stack Trace:
+#0 [internal function]: UsersController->profile()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:22:04 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:22:48 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/UsersController.php, line 73]
+2013-06-20 08:22:48 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /Users/edit
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 73)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 73, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 73, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 08:30:19 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/index.ctp',
+)
+Request URL: /Users
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:43:38 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/UsersController.php, line 72]
+2013-06-20 08:43:38 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Users/edit
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 72, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 72, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 08:44:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/UsersController.php, line 72]
+2013-06-20 08:44:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Users/edit
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 72, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 72, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 08:44:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/Controller/UsersController.php, line 72]
+2013-06-20 08:44:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Users/edit
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 72, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 72, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-20 08:48:49 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:49:21 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:49:33 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 08:54:45 Error: [MissingActionException] Action APIConceptsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'logout',
+)
+Request URL: /APIConcepts/logout
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-20 09:31:00 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-20 09:34:54 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/View/Users/edit.ctp, line 4]
+2013-06-20 09:34:54 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /Users/edit/10
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 4, Array)
+#2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 4, Array)
+#3 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

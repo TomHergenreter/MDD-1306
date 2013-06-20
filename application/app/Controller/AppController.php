@@ -33,20 +33,20 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 
+	
 	public $components = array(
         'Session',
-        'Auth' => array(
+        'Auth' => array( // Authorization Configuration
             'loginRedirect' => array('controller' => 'APIConcepts', 'action' => 'index'),
             'logoutRedirect' => array('controller' => 'pages', 'action' => 'display', 'home')
         )
     );
     
     public function isAuthorized($user) {
-	    // Admin can access every action
+	    // Once logged in, users can access every action
 	    if (isset($user)) {
 	        return true;
 	    }
-	
 	    // Default deny
 	    return false;
 	}

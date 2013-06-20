@@ -67,7 +67,7 @@
 			echo "<h2>$projectname</h2><img src='$projectimage'>";*/
 		?>
 		
-		
+
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
