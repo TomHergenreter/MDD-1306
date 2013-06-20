@@ -74,6 +74,7 @@ button,.button {
 	border-width:0;
 	margin:0 0 .75em;
 	padding:.7em 5.75em;
+	min-width: 260px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	width: 100%;
@@ -355,6 +356,15 @@ nav img {
 		margin: 1.1%;
 	}
 	
+}
+
+/*---------- Alert Box ----------*/
+
+.alert p {
+	color: red;
+	background: #ecf0f1;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
 
 

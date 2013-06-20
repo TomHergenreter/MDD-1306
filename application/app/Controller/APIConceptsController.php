@@ -10,11 +10,11 @@ class APIConceptsController extends AppController {
     }
     
     public function signUp() {
-	    
+	  
     }
     
     public function inspirations() {
 	  	$this->set('projects', $this->APIConcept->find('all')); 
-	  	$this->request->data = $this->Auth->user(); 
+	  	$this->request->data = $this->Auth->user();
     }
 }

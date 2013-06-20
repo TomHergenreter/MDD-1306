@@ -1,4 +1,35 @@
+	<!-- Menu -->
+	<nav class="top-bar">
+		<ul class="title-area">
+			<!-- Title Area -->
+			<li class="name">
+			<h1><a href="#">INSPIRED</a></h1>
+			</li>
+			<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+		</ul>
+		<!-- Right NavSection -->
+		<ul class="right">
+			<li class="has-form">
+			<form>
+				<div class="row collapse">
+					<div class="small-11 columns">
+						<input type="text" class="searchInput">
+					</div>
+				</div>
+			</form>
+			</li>
+		</ul>
+	</nav>
+	
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="large-6 large-centered columns alert">
+        		<p><?php echo $this->Session->flash(); ?></p>
+			</div>
+		</div>
+    </div>
 
+	
 	<!--Sign Up Form -->
 	<div class="row">
 		<div class="large-12 columns">

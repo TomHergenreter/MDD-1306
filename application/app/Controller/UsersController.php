@@ -53,13 +53,14 @@ class UsersController extends AppController {
 	// Edit Data, accepts user Id, passed in through settings link in nav menu
     public function edit($id = null) {
 	    $this->User->id = $id;
+	    $this->set('id', $this->User->id);
 	    if (!$this->User->exists()) {
 	        throw new NotFoundException(__('Invalid user'));
 	    }
 	    if ($this->request->is('post') || $this->request->is('put')) {
 	        if ($this->User->save($this->request->data)) {
 	            $this->Session->setFlash(__('The user has been saved'));
-	            $this->redirect(array('controller' => 'APIConcepts', 'action' => 'inspirations'));
+	            //$this->redirect(array('controller' => 'Users', 'action' => 'Success'));
 	        } else {
 	            $this->Session->setFlash(__('The user could not be saved. Please, try again.'));
 	        }
@@ -70,19 +71,23 @@ class UsersController extends AppController {
 	
     // Delete Data
     public function delete($id = null) {
-        if (!$this->request->is('post')) {
-            throw new MethodNotAllowedException();
-        }
+        
         $this->User->id = $id;
+        $this->request->data = $this->Auth->user();
+        
         if (!$this->User->exists()) {
             throw new NotFoundException(__('Invalid user'));
         }
         if ($this->User->delete()) {
             $this->Session->setFlash(__('User deleted'));
-            $this->redirect(array('controller' => 'APIConcepts', 'action' => 'index'));
+            $this->redirect($this->Auth->logout());
         }
         $this->Session->setFlash(__('User was not deleted'));
         $this->redirect(array('action' => 'index'));
+    }
+    
+    public function success(){
+	    
     }
         
 }
