@@ -20,6 +20,7 @@ class UsersController extends AppController {
 	
 	// Logout
 	public function logout() {
+		$this->Session->destroy();
 	    $this->redirect($this->Auth->logout()); // Unset user, and redirect to login using auto-magic
 	}
 
@@ -52,6 +53,12 @@ class UsersController extends AppController {
 
 	// Edit Data, accepts user Id, passed in through settings link in nav menu
     public function edit($id = null) {
+    	if ($id != $this->Auth->user('id')){
+    		$this->Session->setFlash(__('You are not authorized'));
+    		$this->redirect(array('controller' => 'APIConcepts', 'action'=>'inspirations'));
+    		return false;
+    	}
+    	
 	    $this->User->id = $id;
 	    $this->set('id', $this->User->id);
 	    if (!$this->User->exists()) {
@@ -60,7 +67,6 @@ class UsersController extends AppController {
 	    if ($this->request->is('post') || $this->request->is('put')) {
 	        if ($this->User->save($this->request->data)) {
 	            $this->Session->setFlash(__('Your information has been updated!'));
-	            //$this->redirect(array('controller' => 'Users', 'action' => 'Success'));
 	        } else {
 	            $this->Session->setFlash(__('The user could not be saved. Please, try again.'));
 	        }

@@ -1,37 +1,17 @@
-	<!-- Menu -->
-	<nav class="top-bar">
-		<ul class="title-area">
-			<!-- Title Area -->
-			<li class="name">
-			<h1><a href="#">INSPIRED</a></h1>
-			</li>
-			<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-		</ul>
-		<section class="top-bar-section">
-		<!-- Left Nav Section -->
-		<ul class="left">
-			<li class="divider"></li>
-			<li><?php echo $this->Html->image("icons/homeIcon.png", array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'inspirations'))); ?></li>
-			<li class="divider"></li>
-			<li><?php echo $this->Html->image("icons/heartIcon.png", array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'index'))); ?></li>
-			<li class="divider"></li>
-			<li><?php echo $this->Html->image("icons/cogIcon.png", array("alt" => "Home",'url' => array('controller' => 'Users', 'action' => 'edit/' . $this->request->data('id')))); ?></li>
-			<li class="divider"></li>
-		</ul>
-		</section>
-		<!-- Right NavSection -->
-		<ul class="right">
-			<li class="has-form">
-			<form>
-				<div class="row collapse">
-					<div class="small-11 columns">
-						<input type="text" class="searchInput">
-					</div>
-				</div>
-			</form>
-			</li>
-		</ul>
-	</nav>
+	<!-- Nav -->
+	<nav class="breadcrumbs">
+			<?php echo $this->Html->Link("Home", array( 'controller' => 'APIConcepts', 'action' => 'inspirations')); ?>
+			<?php echo $this->Html->Link("Favorites", array( 'controller' => 'APIConcepts', 'action' => 'favorites')); ?>
+			<?php echo $this->Html->Link("Account Settings", array( 'controller' => 'Users', 'action' => 'edit/' . $this->request->data('id'))); ?>
+			<?php echo $this->Html->Link("Logout", array( 'controller' => 'Users', 'action' => 'logout')); ?>
+		</nav>
+	<!-- End Nav -->	
+	
+	<!-- Header -->	
+	<div class="header-wrapper">
+		<?php echo $this->Html->image("beInspiredLogo.png", array("class" => "logo center", "alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'inspirations'))); ?>
+	</div>
+	<!-- End Header -->
 	
 	<!-- Flash Message -->
 	<div class="row">

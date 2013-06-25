@@ -3178,3 +3178,1154 @@ Stack Trace:
 #1 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #2 /Users/thergenreter1/Desktop/mdd/Repo/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-06-24 00:30:19 Error: [MissingActionException] Action APIConceptsController::behance() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'behance',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 00:30:56 Error: [MissingActionException] Action APIConceptsController::behance() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'behance',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 00:31:16 Error: [MissingActionException] Action APIConceptsController::behance() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'behance',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 00:38:24 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:39:24 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:39:48 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:39:51 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/inspiration
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:41:09 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:41:47 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:42:29 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:42:33 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:42:37 Error: [MissingActionException] Action APIConceptsController::behance() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'behance',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 00:42:46 Error: [MissingControllerException] Controller class InspirationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InspirationsController',
+  'plugin' => NULL,
+)
+Request URL: /inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:42:49 Error: [MissingControllerException] Controller class InspirationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InspirationsController',
+  'plugin' => NULL,
+)
+Request URL: /inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 00:43:51 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 18]
+2013-06-24 00:43:51 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 18, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 18, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 00:43:59 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 18]
+2013-06-24 00:43:59 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 18, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 18, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 00:49:08 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 19]
+2013-06-24 00:49:09 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 00:49:10 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 19]
+2013-06-24 00:49:10 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 00:49:22 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 19]
+2013-06-24 00:49:22 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 00:49:32 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 19]
+2013-06-24 00:49:32 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 00:49:33 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 19]
+2013-06-24 00:49:33 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 00:53:42 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 17]
+2013-06-24 00:53:42 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 17, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 17, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 00:54:43 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 19]
+2013-06-24 00:54:43 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 01:14:40 Error: Fatal Error (1): Call to a member function behance() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 19]
+2013-06-24 01:14:40 Error: [FatalErrorException] Call to a member function behance() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 19, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 01:17:13 Error: Fatal Error (1): Class 'HttpSocket' not found in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 24]
+2013-06-24 01:17:13 Error: [FatalErrorException] Class 'HttpSocket' not found
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'HttpSock...', '/Users/thergenr...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'HttpSock...', '/Users/thergenr...', 24, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'HttpSock...', '/Users/thergenr...', 24, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 01:17:47 Error: Fatal Error (1): Class 'HttpSocket' not found in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 25]
+2013-06-24 01:17:47 Error: [FatalErrorException] Class 'HttpSocket' not found
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'HttpSock...', '/Users/thergenr...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'HttpSock...', '/Users/thergenr...', 25, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'HttpSock...', '/Users/thergenr...', 25, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 01:17:48 Error: Fatal Error (1): Class 'HttpSocket' not found in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 25]
+2013-06-24 01:17:48 Error: [FatalErrorException] Class 'HttpSocket' not found
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'HttpSock...', '/Users/thergenr...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'HttpSock...', '/Users/thergenr...', 25, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'HttpSock...', '/Users/thergenr...', 25, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 01:17:59 Error: Fatal Error (1): Class 'HttpSocket' not found in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 25]
+2013-06-24 01:17:59 Error: [FatalErrorException] Class 'HttpSocket' not found
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'HttpSock...', '/Users/thergenr...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'HttpSock...', '/Users/thergenr...', 25, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'HttpSock...', '/Users/thergenr...', 25, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 01:18:26 Error: Fatal Error (1): Class 'HttpSocket' not found in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 23]
+2013-06-24 01:18:26 Error: [FatalErrorException] Class 'HttpSocket' not found
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'HttpSock...', '/Users/thergenr...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'HttpSock...', '/Users/thergenr...', 23, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'HttpSock...', '/Users/thergenr...', 23, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 01:18:27 Error: Fatal Error (1): Class 'HttpSocket' not found in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 23]
+2013-06-24 01:18:27 Error: [FatalErrorException] Class 'HttpSocket' not found
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'HttpSock...', '/Users/thergenr...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'HttpSock...', '/Users/thergenr...', 23, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'HttpSock...', '/Users/thergenr...', 23, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 01:19:28 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:19:53 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:20:14 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:21:00 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:21:51 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:27:17 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:32:47 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:34:50 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:36:51 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:37:33 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:37:41 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/behance.ctp',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 01:46:51 Error: [MissingActionException] Action APIConceptsController::behance() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'behance',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 01:47:27 Error: [MissingActionException] Action APIConceptsController::behance() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'behance',
+)
+Request URL: /APIConcepts/behance
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 01:47:40 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 01:51:15 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 01:51:30 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 01:51:32 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 01:51:36 Error: [MissingControllerException] Controller class APIConceptController could not be found.
+Exception Attributes: array (
+  'class' => 'APIConceptController',
+  'plugin' => NULL,
+)
+Request URL: /APIConcept/
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 01:59:56 Error: [MissingActionException] Action APIConceptsController::inspirations.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'inspirations.ctp',
+)
+Request URL: /APIConcepts/inspirations.ctp?id=2
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 02:00:08 Error: [MissingActionException] Action APIConceptsController::inspirations.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'inspirations.ctp',
+)
+Request URL: /APIConcepts/inspirations.ctp?id=2
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 02:00:13 Error: [MissingActionException] Action APIConceptsController::inspirations.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'inspirations.ctp',
+)
+Request URL: /APIConcepts/inspirations.ctp?id=2
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 04:26:48 Error: [MissingViewException] View file "/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp',
+)
+Request URL: /APIConcepts/project
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 04:34:13 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp, line 3]
+2013-06-24 04:34:13 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /APIConcepts/project
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 3, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 3, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 04:38:09 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp, line 13]
+2013-06-24 04:38:09 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';'
+Request URL: /APIConcepts/project
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 13, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 13, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 04:38:32 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp, line 13]
+2013-06-24 04:38:32 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';'
+Request URL: /APIConcepts/project
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 13, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 13, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 04:40:42 Error: [MissingActionException] Action APIConceptsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'logout',
+)
+Request URL: /APIConcepts/logout
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 04:40:46 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /logout
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-24 04:47:23 Error: [MissingActionException] Action APIConceptsController::project6755421() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'project6755421',
+)
+Request URL: /APIConcepts/project6755421
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-24 04:52:43 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 48]
+2013-06-24 04:52:43 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 48, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 48, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 04:53:00 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 48]
+2013-06-24 04:53:00 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 48, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 48, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 04:53:04 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 48]
+2013-06-24 04:53:04 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 48, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 48, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 04:57:00 Error: Fatal Error (4): syntax error, unexpected '.' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 47]
+2013-06-24 04:57:00 Error: [FatalErrorException] syntax error, unexpected '.'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 47, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 47, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 05:49:55 Error: [NotFoundException] Invalid user
+Request URL: /Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-06-24 06:28:53 Error: Fatal Error (1): Call to a member function query() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 47]
+2013-06-24 06:28:53 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 47, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 47, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 06:30:33 Error: Fatal Error (1): Call to a member function query() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 47]
+2013-06-24 06:30:33 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 47, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 47, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 06:31:55 Error: [MissingTableException] Table a_p_i_concepts for model APIConcept was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'a_p_i_concepts',
+  'class' => 'APIConcept',
+  'ds' => 'default',
+)
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3243): Model->setSource('a_p_i_concepts')
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3060): Model->getDataSource()
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(47): Model->query('SELECT * FROM f...')
+#3 [internal function]: APIConceptsController->inspirations()
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-06-24 06:45:28 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'MDD.favorites' doesn't exist
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT * FROM f...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('SELECT * FROM f...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT * FROM f...')
+#4 [internal function]: DboSource->query('SELECT * FROM f...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(47): Model->query('SELECT * FROM f...')
+#7 [internal function]: APIConceptsController->inspirations()
+#8 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-24 06:46:20 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'MDD.user_id' doesn't exist
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT * FROM u...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('SELECT * FROM u...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT * FROM u...')
+#4 [internal function]: DboSource->query('SELECT * FROM u...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(47): Model->query('SELECT * FROM u...')
+#7 [internal function]: APIConceptsController->inspirations()
+#8 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-24 06:52:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT * FROM a...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('SELECT * FROM a...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT * FROM a...')
+#4 [internal function]: DboSource->query('SELECT * FROM a...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(57): Model->query('SELECT * FROM a...')
+#7 [internal function]: APIConceptsController->favorites()
+#8 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-24 07:17:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /APIConcepts/favorites/6359707
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO a_p...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('INSERT INTO a_p...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('INSERT INTO a_p...')
+#4 [internal function]: DboSource->query('INSERT INTO a_p...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(63): Model->query('INSERT INTO a_p...')
+#7 [internal function]: APIConceptsController->favorites('6359707')
+#8 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-24 07:39:46 Error: Fatal Error (1): Call to a member function query() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 26]
+2013-06-24 07:39:47 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /APIConcepts/project/9422373
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 07:39:53 Error: Fatal Error (1): Call to a member function query() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 32]
+2013-06-24 07:39:53 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /APIConcepts/favorites/9422373
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 07:40:04 Error: Fatal Error (1): Call to a member function query() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 26]
+2013-06-24 07:40:04 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /APIConcepts/project/9422373
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 07:41:18 Error: Fatal Error (1): Call to a member function query() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 26]
+2013-06-24 07:41:18 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /APIConcepts/project/9422373
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 07:41:47 Error: Fatal Error (1): Call to a member function query() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 32]
+2013-06-24 07:41:47 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /APIConcepts/favorites/9422373
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 07:45:32 Error: Fatal Error (1): Call to a member function query() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 26]
+2013-06-24 07:45:32 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /APIConcepts/favorites/9422373
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 07:47:00 Error: Fatal Error (1): Call to a member function user() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 32]
+2013-06-24 07:47:00 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /APIConcepts/favorites/9422373
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 07:47:29 Error: Fatal Error (1): Call to a member function query() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 32]
+2013-06-24 07:47:29 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /APIConcepts/favorites/9422373
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 23:49:22 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 40]
+2013-06-24 23:49:22 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /APIConcepts/favorites/6299437
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 40, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 40, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-24 23:55:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'redirect' at line 1
+Request URL: /APIConcepts/favorites/6299437
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('redirect', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('redirect', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(612): DboSource->fetchAll('redirect', Array, Array)
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(800): DboSource->query('redirect', Array, Object(APIConcept))
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(40): Model->__call('redirect', Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(40): APIConcept->redirect('inspirations')
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(66): APIConcept->addFavorites(Array)
+#8 [internal function]: APIConceptsController->favorites('6299437')
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-24 23:55:46 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'redirect' at line 1
+Request URL: /APIConcepts/favorites/6299437
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('redirect', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('redirect', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(612): DboSource->fetchAll('redirect', Array, Array)
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(800): DboSource->query('redirect', Array, Object(APIConcept))
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(40): Model->__call('redirect', Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(40): APIConcept->redirect('inspirations')
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(66): APIConcept->addFavorites(Array)
+#8 [internal function]: APIConceptsController->favorites('6299437')
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-25 00:03:43 Error: Fatal Error (64): Cannot use [] for reading in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 67]
+2013-06-25 00:03:43 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /APIConcepts/favorites/9376255
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', '/Users/thergenr...', 67)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', '/Users/thergenr...', 67, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', '/Users/thergenr...', 67, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 00:23:47 Error: Fatal Error (4): syntax error, unexpected '"</p>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 52]
+2013-06-25 00:23:47 Error: [FatalErrorException] syntax error, unexpected '"</p>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 52, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 52, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 00:24:40 Error: Fatal Error (4): syntax error, unexpected '"</p>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 52]
+2013-06-25 00:24:40 Error: [FatalErrorException] syntax error, unexpected '"</p>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 52, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 52, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 00:27:00 Error: [MissingActionException] Action APIConceptsController::removeFavorites() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'removeFavorites',
+)
+Request URL: /APIConcepts/removeFavorites/9084309
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-25 00:27:32 Error: [MissingActionException] Action APIConceptsController::removeFavorites() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'removeFavorites',
+)
+Request URL: /APIConcepts/removeFavorites/9084309
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-25 00:27:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'REMOVE FROM a_p_i_concepts WHERE user_id =3AND project_id =9084309' at line 1
+Request URL: /APIConcepts/removeFavorites/9084309
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('REMOVE FROM a_p...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('REMOVE FROM a_p...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('REMOVE FROM a_p...')
+#4 [internal function]: DboSource->query('REMOVE FROM a_p...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(54): Model->query('REMOVE FROM a_p...')
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(77): APIConcept->deleteFavorites(Array)
+#8 [internal function]: APIConceptsController->removeFavorites('9084309')
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-25 00:28:20 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'REMOVE FROM a_p_i_concepts WHERE user_id = 3 AND project_id =9084309' at line 1
+Request URL: /APIConcepts/removeFavorites/9084309
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('REMOVE FROM a_p...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('REMOVE FROM a_p...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('REMOVE FROM a_p...')
+#4 [internal function]: DboSource->query('REMOVE FROM a_p...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(54): Model->query('REMOVE FROM a_p...')
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(77): APIConcept->deleteFavorites(Array)
+#8 [internal function]: APIConceptsController->removeFavorites('9084309')
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-25 01:14:29 Error: Fatal Error (1): Call to a member function behanceProject() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php, line 65]
+2013-06-25 01:14:29 Error: [FatalErrorException] Call to a member function behanceProject() on a non-object
+Request URL: /APIConcepts/readFavorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 65, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 65, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:18:00 Error: [MissingActionException] Action APIConceptsController::favorites() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'favorites',
+)
+Request URL: /a_p_i_concepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-25 01:22:09 Error: Fatal Error (1): Call to a member function set() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 92]
+2013-06-25 01:22:09 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /APIConcepts/readFavorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 92, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 92, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:23:10 Error: [MissingActionException] Action APIConceptsController::readFavorites() could not be found.
+Exception Attributes: array (
+  'controller' => 'APIConceptsController',
+  'action' => 'readFavorites',
+)
+Request URL: /APIConcepts/readFavorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-25 01:23:32 Error: Fatal Error (1): Call to a member function set() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php, line 88]
+2013-06-25 01:23:32 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 88, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 88, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:25:19 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 5]
+2013-06-25 01:25:19 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:26:42 Error: Fatal Error (4): syntax error, unexpected '--' (T_DEC), expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 4]
+2013-06-25 01:26:42 Error: [FatalErrorException] syntax error, unexpected '--' (T_DEC), expecting :: (T_PAAMAYIM_NEKUDOTAYIM)
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 4, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 4, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:26:59 Error: Fatal Error (4): syntax error, unexpected end of file in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 95]
+2013-06-25 01:26:59 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 95, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 95, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:27:11 Error: Fatal Error (4): syntax error, unexpected end of file in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 95]
+2013-06-25 01:27:11 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 95, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 95, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:27:24 Error: Fatal Error (4): syntax error, unexpected end of file in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 5]
+2013-06-25 01:27:24 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:27:27 Error: Fatal Error (4): syntax error, unexpected end of file in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 5]
+2013-06-25 01:27:27 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:27:31 Error: Fatal Error (4): syntax error, unexpected end of file in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 5]
+2013-06-25 01:27:31 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:45:56 Error: Fatal Error (4): syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 41]
+2013-06-25 01:45:57 Error: [FatalErrorException] syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 41, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 41, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 01:46:17 Error: Fatal Error (4): syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 41]
+2013-06-25 01:46:17 Error: [FatalErrorException] syntax error, unexpected '"alt"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 41, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 41, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 03:39:11 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 52]
+2013-06-25 03:39:12 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 52, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 52, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 03:58:08 Error: Fatal Error (64): Cannot use [] for reading in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 5]
+2013-06-25 03:58:08 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', '/Users/thergenr...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', '/Users/thergenr...', 5, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', '/Users/thergenr...', 5, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 04:04:27 Error: Fatal Error (4): syntax error, unexpected ']', expecting '(' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 5]
+2013-06-25 04:04:27 Error: [FatalErrorException] syntax error, unexpected ']', expecting '('
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 5, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 04:17:19 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 20]
+2013-06-25 04:17:19 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';'
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 20, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 20, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 04:29:01 Error: Fatal Error (4): syntax error, unexpected '}' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/favorites.ctp, line 8]
+2013-06-25 04:29:01 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 8, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 8, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

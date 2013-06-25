@@ -103,6 +103,23 @@ button.alert:hover,button.alert:focus,.button.alert:hover,.button.alert:focus {
 	color:#ecf0f1;
 }
 
+.buttonWrapper {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.small.next.button {
+	float: right;
+	margin-right: 1.5%;
+	margin-top: 1.5%;
+}
+
+.small.prev.button {
+	float: left;
+	margin-left: 1.5%;
+	margin-top: 1.5%;
+}
+
 @media only screen and (min-width: 768px) {
 	button, .button {
 		width: auto;
@@ -263,6 +280,44 @@ nav img {
 	margin: 0 auto;
 }
 
+/*---------- Nav ----------*/
+
+nav.breadcrumbs {
+	clear: right;
+	margin: 0 0 0 0;
+}
+
+/*---------- Header ----------*/
+
+.header-wrapper {
+	width: 1080px;
+	max-width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+img.logo {
+	display: block;
+	width: 70px;
+	max-width: 100%;
+	float: left;
+	margin: 15px 20px 0 20px;
+}
+
+img.logo.center {
+	float: none;
+	margin: 15px auto 0px auto;
+}
+
+input.searchInput {
+	float: right;
+	font-size: .75em;
+	width: 200px;
+	max-width: 100%;
+	margin: 100px 20px 0 0;
+}
+
+
 /*---------- Image Grid ----------*/
 
 .grid-wrapper {
@@ -274,7 +329,8 @@ nav img {
 }
 
 .preview ul {
-	width: 80%
+	width: 100%;
+	margin: 0 auto;
 }
 
 .preview li {
@@ -318,12 +374,20 @@ nav img {
  margin-left: -8px; 
 } 
 
-.caption h4 {
+.caption p {
+	margin-top: 0px;
+}
+
+.caption .icon {
+	float: right;
+}
+
+/*.caption h4 {
   font: normal .9em/1.2em "Helvetica Neue", helvetica;
   text-align: center;
   color: #ffffff;
-  padding: 20px 5px;
-}
+  padding: 45px 5px;
+}*/
 
 .imgOpen {
   max-width: 100%;
@@ -346,16 +410,29 @@ nav img {
 		width: 46%;
 		margin: 2%;
 	}
-	
+
 }
 
 @media only screen and (min-width: 960px) {
 	
 	.preview li {
 		width: 30%;
-		margin: 1.1%;
+		margin: 1.1% 1.65%;
 	}
 	
+}
+
+/*---------- Image Detail ----------*/
+
+.project_wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+img.projectDetail {
+	display: block;
+	max-width: 100%;
+	margin: 1em auto;
 }
 
 /*---------- Alert Box ----------*/
