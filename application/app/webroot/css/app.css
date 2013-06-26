@@ -2,8 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
 body {
-	margin-bottom: 2em;
-	background: #2a3a4b;
+	background: #ffffff;
 }
 
 /*---------- Links ----------*/
@@ -82,7 +81,13 @@ button,.button {
 
 h3 {
 	color:#FFF;
-	font-family:Lato;
+	font-family:'Lato';
+	font-weight:400;
+}
+
+h2 {
+	color:#FFF;
+	font-family:'Lato';
 	font-weight:400;
 }
 
@@ -106,18 +111,6 @@ button.alert:hover,button.alert:focus,.button.alert:hover,.button.alert:focus {
 .buttonWrapper {
 	width: 40%;
 	margin: 0 auto;
-}
-
-.small.next.button {
-	float: right;
-	margin-right: 1.5%;
-	margin-top: 1.5%;
-}
-
-.small.prev.button {
-	float: left;
-	margin-left: 1.5%;
-	margin-top: 1.5%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -283,17 +276,30 @@ nav img {
 /*---------- Nav ----------*/
 
 nav.breadcrumbs {
-	clear: right;
-	margin: 0 0 0 0;
+	display: inline;
+	float: left;
+	margin: 93px 10px 0 0;
+	background: none;
+	border: none;
+}
+
+nav.breadcrumbs > * {
+	color: #2ecc71;
 }
 
 /*---------- Header ----------*/
 
+.wrapper{
+	width: 100%;
+	background: #2a3a4b; 
+}
+
 .header-wrapper {
 	width: 1080px;
-	max-width: 80%;
-	margin: 0 auto;
+	max-width: 100%;
+	margin: 0 auto 1em auto;
 	overflow: auto;
+	background: #2a3a4b;
 }
 
 img.logo {
@@ -301,7 +307,7 @@ img.logo {
 	width: 70px;
 	max-width: 100%;
 	float: left;
-	margin: 15px 20px 0 20px;
+	margin: 15px 0px 0 20px;
 }
 
 img.logo.center {
@@ -315,6 +321,36 @@ input.searchInput {
 	width: 200px;
 	max-width: 100%;
 	margin: 100px 20px 0 0;
+}
+
+/*---------- Footer ----------*/
+
+.bottom-wrapper{
+	width: 100%;
+	background: #ecf0f1;
+}
+
+.footer-wrapper {
+	width: 1080px;
+	max-width: 100%;
+	margin: 1em auto 0 auto;
+	overflow: auto;
+}
+
+ ul.inline-list {
+	margin-bottom: 0px;
+}
+
+.footer-wrapper nav.breadcrumbs {
+	margin: 1em 0em .55em 0em;
+}
+
+.footer-wrapper p {
+	padding: 0.5625em 0.875em 0.5625em;
+	margin: .75em 0em .55em 0em;
+	font-size: .9em;
+	float: right;
+	color: #2ecc71;
 }
 
 
@@ -382,13 +418,6 @@ input.searchInput {
 	float: right;
 }
 
-/*.caption h4 {
-  font: normal .9em/1.2em "Helvetica Neue", helvetica;
-  text-align: center;
-  color: #ffffff;
-  padding: 45px 5px;
-}*/
-
 .imgOpen {
   max-width: 100%;
   left: 0;  
@@ -402,6 +431,19 @@ input.searchInput {
 	width: 32px;
 	display: inline;
 	padding: 0 5px 0 0;
+}
+
+.button-wrapper {
+	margin: 0 auto;
+	width: 580px;
+	max-width: 100%;
+	overflow: auto;
+	padding: 0 1em; 
+}
+
+.button-wrapper form {
+	margin-right: .5em;
+	float: right;
 }
 
 @media only screen and (min-width: 620px) {
@@ -422,7 +464,24 @@ input.searchInput {
 	
 }
 
-/*---------- Image Detail ----------*/
+/*---------- Project Detail ----------*/
+
+.details {
+	background:#ffffff;
+	margin-top: 1em;
+	width: 600px;
+	max-width: 100%;
+	margin: 1em auto;
+	padding-top: 1em;
+}
+
+.details a .avatar{
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	max-width: 100%;
+}
 
 .project_wrapper {
 	width: 80%;
@@ -433,6 +492,63 @@ img.projectDetail {
 	display: block;
 	max-width: 100%;
 	margin: 1em auto;
+	padding: 1em;
+	background: #ecf0f1;
+}
+
+.details h2{
+	font-size: 1.2em;
+	margin: 0px;
+	padding-bottom: 0px;
+	color: #444444;
+	line-height: 1em;
+}
+
+.icon {
+	display: inline-block;
+	width: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+/*---------- Terms ----------*/
+
+.terms{
+	background:#ecf0f1;
+	width: 680px;
+	max-width: 100%;
+	margin: 1em auto;
+	padding-bottom: 1em;
+	overflow: auto;
+}
+
+.terms h2{
+	color: #ffffff;
+	background: #2ecc71;
+	margin-bottom: 0px;
+	padding: .25em .5em;
+}
+
+.terms h3 {
+	color: #444444;
+	padding: .25em 1.2em;
+}
+
+.terms p {
+	color: #444444;
+	padding: .25em 2em;
+}
+
+.terms ol {
+	padding: .25em 2em .25em 3.5em;
+}
+
+.terms ul {
+	padding: .25em 2em .25em 3.5em;
+}
+
+ p.addPad {
+	padding-top: 1em;
 }
 
 /*---------- Alert Box ----------*/

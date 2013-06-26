@@ -1,4 +1,4 @@
-	
+
 	<!-- Header -->	
 	<div class="wrapper">
 	<div class="header-wrapper">
@@ -17,50 +17,25 @@
 	</div>
 	<!-- End Header -->
 
-	<!-- Image Grid -->
-	<div class="grid-wrapper">
-		<ul class="preview">
-			<?php
-				foreach ($projects as $projectArray): 
-					foreach ($projectArray as $project):
-						if(is_int($project)){
-							
-						}else{		
-							if(isset($project['covers']['404'])){	
-								echo
-											
-								"<li>" .
-								$this->Html->image($project['covers']['404'], array("alt" => "Home",'url' => array('controller' => 'APIConcepts', 'action' => 'project/' . $project['id']))) . " 
-									<div class='caption'>
-										<p><a href='" . $project['owners'][0]['url'] . "'><img src='" . $project['owners'][0]['images']['50'] . "'</a>" . $project['owners'][0]['first_name'] . " " . $project['owners'][0]['last_name'] . "</p>
-									</div>
-								</li>";
-							}else{
-								echo
-								 "<li>" . $this->Html->image( 'noLoadImage.jpg' , array('alt' => 'Sorry, image unable to load')) . "</li>";
-							}	
-						};
-					endforeach;	
-				endforeach; 
-			?>
-		</ul>
-			
-	</div>
-	
-	<div class="button-wrapper">
-			<!-- Previous Button -->
-			<form action="/APIConcepts/inspirations" method="post" accept-charset="utf-8">
-				<input type="submit" name='prev' class="small button prev" value="Previous">
-			</form>
+<div class="large-12 columns">
+	<div class="row">
+		<div class="terms">
 		
-			<!-- Next Button -->
-			<form action="/APIConcepts/inspirations" method="post" accept-charset="utf-8">
-				<input type="submit" name='next' class="small button next" value="Next">
-			</form>
-	</div>		
+			<h2>FAQ</h2>
+			<h3>What is beINSPIRED?</h3>
+			<p>beINSPIRED is a source for inspiration. Powered by the behance.net API, we provide a stream of inspiring artwork from many different genres and mediums, without a bunch of details getting in the way. beINSPIRED allows you to search through projects hosted by behance.net, and add your favorites to your own personal gallery.</p>
 			
-	
-	
+			<h3>Is beINSPIRED free to use?</h3>
+			<p>beINSPIRED is 100% free to use, and your favorites gallery can contain as many different projects as you like.</p>
+			
+			<h3>How can I contact beINSPIRED?</h3>
+			<p>If you need assistance or just want to say hello, you can reach us at info@beinspired.com.</p>
+			
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
 	<div class="bottom-wrapper">
 		<div class="footer-wrapper">
 			<nav class="breadcrumbs">
@@ -70,10 +45,10 @@
 				<?php echo $this->Html->Link("Logout", array( 'controller' => 'Users', 'action' => 'logout')); ?>
 				<?php echo $this->Html->Link("Terms", array( 'controller' => 'APIConcepts', 'action' => 'terms')); ?>
 			 	<?php echo $this->Html->Link("FAQ", array( 'controller' => 'APIConcepts', 'action' => 'faq')); ?>
+			 	<a>&copybeINSPIRED</a>
 			</nav>
-			<p>&copybeINSPIRED</p>
 		</div>
-	</div>	
+	</div>
+	<!-- End Footer -->		
 
-
-		
+			

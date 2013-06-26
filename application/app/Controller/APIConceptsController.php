@@ -14,7 +14,7 @@ class APIConceptsController extends AppController {
 	  
     }
     
-    /* Controls Read and Update functions for API data*/
+    /*Controls Read and Update functions for API data*/
     public function inspirations() {
     	
     	$this->request->data = $this->Auth->user();
@@ -35,7 +35,7 @@ class APIConceptsController extends AppController {
 	    	$this->Session->write('pageNum', $pageNum );
     	}
     	
-    	/* Free text search query */
+    	/*Free text search query */
     	if (!empty($_POST['query']) && isset($_POST['query'])){
     		$this->Session->write('searchQuery', $_POST['query']);
     		$this->Session->write('pageNum', 1 );
@@ -54,12 +54,14 @@ class APIConceptsController extends AppController {
 		
     }
     
+    /*Projects page controller*/
     public function project($id) {
     
 	    $this->set('projects', $this->APIConcept->behanceProject(array($id)));
 	    
     }
-     
+    
+    /*Add to Favorites controller*/ 
     public function addFavorites($id){
     
 	    $this->request->data = $this->Auth->user();
@@ -71,6 +73,7 @@ class APIConceptsController extends AppController {
 	    $this->redirect('project/' . $projectId);  
     }
     
+    /*Remove from favorites controller*/
     public function removeFavorites($id){
     
 		$this->request->data = $this->Auth->user();
@@ -82,6 +85,7 @@ class APIConceptsController extends AppController {
 	    $this->redirect('project/' . $projectId); 
     }
     
+    /*Favorites page controller*/
     public function favorites(){
 		$this->request->data = $this->Auth->user();
 	    $userId = $this->request->data('id');
@@ -89,6 +93,27 @@ class APIConceptsController extends AppController {
 	    $this->set('projects', $this->APIConcept->readFavorites($userId));
 			 
 		   
+    }
+    
+    /*Flag content controller*/
+    public function flag($id){
+    	
+    	$data = $this->APIConcept->flag($id);
+    	
+    	$message = $data[0];
+	    $projectId = $data[1];
+	    $this->Session->setFlash(__($message));
+	    $this->redirect('project/' . $projectId); 
+    }
+    
+    /*Terms page controller*/
+    public function terms() {
+	    
+    }
+    
+    /*FAQ page Controller*/
+    public function faq(){
+	    
     }
     
 }

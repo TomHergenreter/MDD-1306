@@ -65,7 +65,9 @@ class APIConcept extends AppModel {
 	   		$data[] = $this->behanceProject(array($favorite));
 	   	endforeach;
 	   	
-	   	return $data;	   
+	   	return $data;	
+	   	
+	   	var_dump($data);   
 	    
     }
     
@@ -92,5 +94,11 @@ class APIConcept extends AppModel {
 			return array('This Project Has Not Been Added To Favorites', $queryData[1]);
 		}
     }
+    
+    public function flag($id){
+	    $data = array('This Project has been flagged for review', $id);
+	    return $data;
+    }
+    
     
 }
