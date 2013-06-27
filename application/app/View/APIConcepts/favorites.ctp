@@ -48,16 +48,7 @@
 			
 	</div>
 	
-	<div class="button-wrapper">
-			<!-- Next Button -->
-			<form action="/APIConcepts/inspirations" method="post" accept-charset="utf-8">
-				<input type="submit" name='next' class="small button next" value="Next">
-			</form>
-			<!-- Previous Button -->
-			<form action="/APIConcepts/inspirations" method="post" accept-charset="utf-8">
-				<input type="submit" name='prev' class="small button prev" value="Previous">
-			</form>
-	</div>		
+	
 			
 	
 	
