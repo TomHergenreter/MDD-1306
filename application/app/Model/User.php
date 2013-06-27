@@ -25,6 +25,13 @@ class User extends AppModel {
 	    }
 	    return true;
 	}
+	
+	//Populate User Profiles page
+	public function profiles(){
+		$users = $this->query("SELECT * FROM users");
+		return $users;    
+    }
+	
     
 }
 

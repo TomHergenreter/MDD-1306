@@ -54,6 +54,26 @@
 							</div>
 						</div>
 						<div class="row">
+							<div class="large-12 columns">		
+								<?php echo $this->Form->input('User.picture', array('div' => false, 'label' => false, 'class' => '', 'placeholder' => 'Avatar URL')); ?>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns">		
+								<?php echo $this->Form->input('User.bio', array('div' => false, 'type' => 'textarea', 'label' => false, 'class' => '', 'placeholder' => 'bio')); ?>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns">		
+								<?php echo $this->Form->input('User.birthdate', array('div' => false, 'type' => 'text', 'label' => false, 'class' => '', 'placeholder' => 'YYYY-MM-DD')); ?>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns">		
+								<?php echo $this->Form->input('User.location', array('div' => false, 'label' => false, 'class' => '', 'placeholder' => 'location')); ?>
+							</div>
+						</div>
+						<div class="row">
 							<div class="large-8 columns">
 								<input type="submit" class="medium button" value="Update">
 							</div>

@@ -276,15 +276,28 @@ nav img {
 /*---------- Nav ----------*/
 
 nav.breadcrumbs {
-	display: inline;
-	float: left;
-	margin: 93px 10px 0 0;
+	margin: 0px auto 10px auto;
 	background: none;
 	border: none;
+	width: 278px;
 }
 
 nav.breadcrumbs > * {
 	color: #2ecc71;
+}
+
+@media only screen and (min-width: 960px) {
+	nav.breadcrumbs{
+		float: left;
+		margin: 93px 10px 0 0;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	nav.breadcrumbs{
+		float: left;
+		margin: 93px 10px 0 0;
+	}
 }
 
 /*---------- Header ----------*/
@@ -306,8 +319,7 @@ img.logo {
 	display: block;
 	width: 70px;
 	max-width: 100%;
-	float: left;
-	margin: 15px 0px 0 20px;
+	margin: 15px auto 15px auto;
 }
 
 img.logo.center {
@@ -316,11 +328,22 @@ img.logo.center {
 }
 
 input.searchInput {
-	float: right;
 	font-size: .75em;
 	width: 200px;
 	max-width: 100%;
-	margin: 100px 20px 0 0;
+	margin: 10px auto 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+	input.searchInput{
+		float: right;
+		margin: 100px 20px 0 0;
+	}
+	
+	img.logo {
+		float: left;
+		margin: 15px 0 0 20px;
+	}
 }
 
 /*---------- Footer ----------*/
@@ -328,12 +351,13 @@ input.searchInput {
 .bottom-wrapper{
 	width: 100%;
 	background: #ecf0f1;
+	overflow: auto;
 }
 
 .footer-wrapper {
 	width: 1080px;
 	max-width: 100%;
-	margin: 1em auto 0 auto;
+	margin: .1em auto 0 auto;
 	overflow: auto;
 }
 
@@ -343,6 +367,8 @@ input.searchInput {
 
 .footer-wrapper nav.breadcrumbs {
 	margin: 1em 0em .55em 0em;
+	float: left;
+	width: auto;
 }
 
 .footer-wrapper p {
@@ -352,7 +378,6 @@ input.searchInput {
 	float: right;
 	color: #2ecc71;
 }
-
 
 /*---------- Image Grid ----------*/
 
@@ -370,13 +395,13 @@ input.searchInput {
 }
 
 .preview li {
-	width: 66%;
+	width: 85%;
 	list-style: none;
-	float: left;
-	background: #ecf0f1;
+	//float: left;
+	//background: #ecf0f1;
 	position: relative;
 	overflow: hidden;
-	margin: 5% 16%;
+	margin: 5% auto;
 }
 
 .preview img {
@@ -442,15 +467,23 @@ input.searchInput {
 }
 
 .button-wrapper form {
-	margin-right: .5em;
-	float: right;
+	margin: 1em auto;
+	width: 100%;
 }
 
 @media only screen and (min-width: 620px) {
 	
 	.preview li {
+		float: left;
 		width: 46%;
 		margin: 2%;
+	}
+	
+	.button-wrapper form {
+		margin-right: .5em;
+		float: right;
+		width: auto;
+		
 	}
 
 }
@@ -458,10 +491,63 @@ input.searchInput {
 @media only screen and (min-width: 960px) {
 	
 	.preview li {
+		float: left;
 		width: 30%;
 		margin: 1.1% 1.65%;
 	}
 	
+	.button-wrapper form {
+		margin-right: .5em;
+		float: right;
+		width: auto;
+	}
+	
+}
+
+/*---------- Profile ----------*/
+
+.preview.profile li {
+	background: #ecf0f1;
+	padding: 1em;
+}
+
+.preview.profile h3 {
+	color: #2ecc71;
+	font-size: 1.2em;
+	margin-bottom: 0px;
+}
+
+.preview.profile p {
+	font-size: .8em;
+}
+
+.preview.profile p span{
+	color: #a1a1a1;
+	margin-top: 0px;
+}
+
+@media only screen and (min-width: 620px) {
+
+	.preview.profile li {
+		width: 85%;
+		list-style: none;
+		position: relative;
+		overflow: hidden;
+		margin: 5% auto;
+		float: none;
+	}
+}	
+
+@media only screen and (min-width: 960px) {
+
+	.preview.profile li {
+		width: 85%;
+		list-style: none;
+		position: relative;
+		overflow: hidden;
+		margin: 5% auto;
+		float: none;
+	}
 }
 
 /*---------- Project Detail ----------*/
@@ -480,6 +566,7 @@ input.searchInput {
 	margin: 0;
 	padding: 0;
 	margin-bottom: 1em;
+	width: 80px;
 	max-width: 100%;
 }
 
@@ -511,6 +598,16 @@ img.projectDetail {
 	margin-right: 10px;
 }
 
+div.row.no-overflow {
+	overflow: auto;
+	padding-left: .8em;
+}
+
+a.flag {
+	font-size: .7em;
+	line-height: 3em;
+	color: #444444;
+}
 /*---------- Terms ----------*/
 
 .terms{
@@ -525,6 +622,7 @@ img.projectDetail {
 .terms h2{
 	color: #ffffff;
 	background: #2ecc71;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: .25em .5em;
 }

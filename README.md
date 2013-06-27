@@ -11,6 +11,7 @@ Default username: root
 
 Default password: password
 
+Note: The Behance API only allows 150 requests per hour per API key. If you recieve a 429 error, this is the cause.
 
 
 

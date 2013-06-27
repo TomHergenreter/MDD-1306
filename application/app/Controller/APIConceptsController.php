@@ -19,7 +19,11 @@ class APIConceptsController extends AppController {
     	
     	$this->request->data = $this->Auth->user();
     	$this->set('id', $this->request->data('id'));
-		$pageNum = null;
+		$pageNum = $this->Session->read('pageNum');
+		
+		if (!isset($pageNum)){
+			$this->Session->write('pageNum', 1 );	
+		}
 		
 		/*Next button functionality*/
     	if (isset($_POST['next'])){
@@ -56,7 +60,9 @@ class APIConceptsController extends AppController {
     
     /*Projects page controller*/
     public function project($id) {
-    
+    	
+    	$this->request->data = $this->Auth->user();
+	    $this->set('id', $this->request->data('id'));
 	    $this->set('projects', $this->APIConcept->behanceProject(array($id)));
 	    
     }
@@ -86,13 +92,10 @@ class APIConceptsController extends AppController {
     }
     
     /*Favorites page controller*/
-    public function favorites(){
+    public function favorites($userId){
 		$this->request->data = $this->Auth->user();
-	    $userId = $this->request->data('id');
-	    
-	    $this->set('projects', $this->APIConcept->readFavorites($userId));
-			 
-		   
+		$this->set('id', $this->request->data('id'));  
+	    $this->set('projects', $this->APIConcept->readFavorites($userId));   
     }
     
     /*Flag content controller*/
@@ -108,12 +111,12 @@ class APIConceptsController extends AppController {
     
     /*Terms page controller*/
     public function terms() {
-	    
+		$this->request->data = $this->Auth->user();  
     }
     
     /*FAQ page Controller*/
     public function faq(){
-	    
+		$this->request->data = $this->Auth->user();    
     }
     
 }

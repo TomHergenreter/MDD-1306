@@ -9,7 +9,8 @@
 		<!-- Nav -->
 		<nav class="breadcrumbs">
 			<?php echo $this->Html->Link("Home", array( 'controller' => 'APIConcepts', 'action' => 'inspirations')); ?>
-			<?php echo $this->Html->Link("Favorites", array( 'controller' => 'APIConcepts', 'action' => 'favorites')); ?>
+			<?php echo $this->Html->Link("Favorites", array( 'controller' => 'APIConcepts', 'action' => 'favorites/' . $id)); ?>
+			<?php echo $this->Html->Link("Profiles", array( 'controller' => 'Users', 'action' => 'profile')); ?>
 			<?php echo $this->Html->Link("Logout", array( 'controller' => 'Users', 'action' => 'logout')); ?>
 		</nav>
 		<!-- End Nav -->
@@ -48,32 +49,33 @@
 	</div>
 	
 	<div class="button-wrapper">
-			<!-- Previous Button -->
-			<form action="/APIConcepts/inspirations" method="post" accept-charset="utf-8">
-				<input type="submit" name='prev' class="small button prev" value="Previous">
-			</form>
-		
 			<!-- Next Button -->
 			<form action="/APIConcepts/inspirations" method="post" accept-charset="utf-8">
 				<input type="submit" name='next' class="small button next" value="Next">
+			</form>
+			<!-- Previous Button -->
+			<form action="/APIConcepts/inspirations" method="post" accept-charset="utf-8">
+				<input type="submit" name='prev' class="small button prev" value="Previous">
 			</form>
 	</div>		
 			
 	
 	
+	<!-- Footer -->
 	<div class="bottom-wrapper">
 		<div class="footer-wrapper">
 			<nav class="breadcrumbs">
 				<?php echo $this->Html->Link("Home", array( 'controller' => 'APIConcepts', 'action' => 'inspirations')); ?>
-				<?php echo $this->Html->Link("Favorites", array( 'controller' => 'APIConcepts', 'action' => 'favorites')); ?>
-				<?php echo $this->Html->Link("Account Settings", array( 'controller' => 'Users', 'action' => 'edit/' . $this->request->data('id'))); ?>
+				<?php echo $this->Html->Link("Favorites", array( 'controller' => 'APIConcepts', 'action' => 'favorites/' . $id)); ?>
+				<?php echo $this->Html->Link("Account Settings", array( 'controller' => 'Users', 'action' => 'edit/' . $id)); ?>
 				<?php echo $this->Html->Link("Logout", array( 'controller' => 'Users', 'action' => 'logout')); ?>
 				<?php echo $this->Html->Link("Terms", array( 'controller' => 'APIConcepts', 'action' => 'terms')); ?>
 			 	<?php echo $this->Html->Link("FAQ", array( 'controller' => 'APIConcepts', 'action' => 'faq')); ?>
+			 	<a>&copybeINSPIRED</a>
 			</nav>
-			<p>&copybeINSPIRED</p>
 		</div>
-	</div>	
+	</div>
+	<!-- End Footer -->	
 
 
 		

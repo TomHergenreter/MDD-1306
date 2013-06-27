@@ -4359,3 +4359,329 @@ Stack Trace:
 #3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-06-26 23:10:15 Error: Fatal Error (4): syntax error, unexpected '.' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp, line 26]
+2013-06-26 23:10:15 Error: [FatalErrorException] syntax error, unexpected '.'
+Request URL: /APIConcepts/project/9464139
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-26 23:22:37 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp, line 26]
+2013-06-26 23:22:37 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /a_p_i_concepts/project/9464139
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-26 23:23:27 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp, line 26]
+2013-06-26 23:23:27 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /a_p_i_concepts/project/9464139
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-26 23:36:03 Error: Fatal Error (4): syntax error, unexpected '"</div></div></div>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp, line 26]
+2013-06-26 23:36:03 Error: [FatalErrorException] syntax error, unexpected '"</div></div></div>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /a_p_i_concepts/project/9464139
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-26 23:36:46 Error: Fatal Error (4): syntax error, unexpected '.' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp, line 26]
+2013-06-26 23:36:46 Error: [FatalErrorException] syntax error, unexpected '.'
+Request URL: /a_p_i_concepts/project/9464139
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-26 23:46:32 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/project.ctp, line 26]
+2013-06-26 23:46:32 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';'
+Request URL: /a_p_i_concepts/project/9464139
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 00:59:24 Error: [MissingActionException] Action UsersController::profile() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'profile',
+)
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-27 01:14:49 Error: Fatal Error (1): Class 'Sanatize' not found in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/UsersController.php, line 101]
+2013-06-27 01:14:49 Error: [FatalErrorException] Class 'Sanatize' not found
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'Sanatize...', '/Users/thergenr...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Sanatize...', '/Users/thergenr...', 101, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Sanatize...', '/Users/thergenr...', 101, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 01:18:53 Error: Fatal Error (1): Call to undefined method Sanitize::encode() in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/Users/profile.ctp, line 26]
+2013-06-27 01:18:53 Error: [FatalErrorException] Call to undefined method Sanitize::encode()
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/thergenr...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/thergenr...', 26, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/thergenr...', 26, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 01:20:27 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/Users/profile.ctp, line 27]
+2013-06-27 01:20:27 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ',' or ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 27, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 27, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 01:39:41 Error: Fatal Error (4): syntax error, unexpected '.' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/Users/profile.ctp, line 37]
+2013-06-27 01:39:42 Error: [FatalErrorException] syntax error, unexpected '.'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 37, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 37, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 01:42:52 Error: [MissingActionException] Action UsersController::<h1>Hello World<() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '<h1>Hello World<',
+)
+Request URL: /Users/%3Ch1%3EHello%20World%3C/h1%3E
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-27 01:58:16 Error: [MissingActionException] Action UsersController::<img src="() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '<img src="',
+)
+Request URL: /Users/%3Cimg%20src=%22/img/noLoadImage.jpg%22%20alt=%22Sorry,%20image%20unable%20to%20load%22%20/%3E
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-27 02:08:15 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/Users/profile.ctp, line 30]
+2013-06-27 02:08:15 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 30, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 30, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 02:22:42 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/Users/profile.ctp, line 35]
+2013-06-27 02:22:43 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 35, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 35, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 02:27:57 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/Users/profile.ctp, line 44]
+2013-06-27 02:27:57 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 44, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 44, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 02:28:45 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/Users/profile.ctp, line 35]
+2013-06-27 02:28:45 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 35, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 35, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 02:47:43 Error: Fatal Error (4): syntax error, unexpected '++' (T_INC), expecting ')' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/Users/profile.ctp, line 43]
+2013-06-27 02:47:43 Error: [FatalErrorException] syntax error, unexpected '++' (T_INC), expecting ')'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 43, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 43, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 03:25:12 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/Users/profile.ctp, line 49]
+2013-06-27 03:25:12 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 49, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 49, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 03:27:51 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp(12): View->__get('Auth')
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(947): include('/Users/thergenr...')
+#4 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(909): View->_evaluate('/Users/thergenr...', Array)
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/View/View.php(471): View->_render('/Users/thergenr...')
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-06-27 03:29:13 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 12]
+2013-06-27 03:29:13 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 12, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 12, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 03:31:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT project_...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('SELECT project_...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT project_...')
+#4 [internal function]: DboSource->query('SELECT project_...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(51): Model->query('SELECT project_...')
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(93): APIConcept->readFavorites(NULL)
+#8 [internal function]: APIConceptsController->favorites()
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-27 03:31:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /APIConcepts/favorites/3
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT project_...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('SELECT project_...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT project_...')
+#4 [internal function]: DboSource->query('SELECT project_...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(51): Model->query('SELECT project_...')
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(93): APIConcept->readFavorites(NULL)
+#8 [internal function]: APIConceptsController->favorites('3')
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-27 03:35:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT project_...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('SELECT project_...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT project_...')
+#4 [internal function]: DboSource->query('SELECT project_...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(51): Model->query('SELECT project_...')
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(93): APIConcept->readFavorites(NULL)
+#8 [internal function]: APIConceptsController->favorites()
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-27 03:37:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT project_...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('SELECT project_...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT project_...')
+#4 [internal function]: DboSource->query('SELECT project_...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(51): Model->query('SELECT project_...')
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(94): APIConcept->readFavorites(NULL)
+#8 [internal function]: APIConceptsController->favorites()
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-27 03:37:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /APIConcepts/favorites
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT project_...', Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('SELECT project_...', Array, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT project_...')
+#4 [internal function]: DboSource->query('SELECT project_...')
+#5 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Model/Model.php(3061): call_user_func_array(Array, Array)
+#6 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/APIConcept.php(51): Model->query('SELECT project_...')
+#7 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Controller/APIConceptsController.php(94): APIConcept->readFavorites(NULL)
+#8 [internal function]: APIConceptsController->favorites()
+#9 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(APIConceptsController), Array)
+#10 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(APIConceptsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-27 03:39:26 Error: Fatal Error (1): Call to a member function user() on a non-object in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/Model/User.php, line 32]
+2013-06-27 03:39:26 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /Users/profile
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/thergenr...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/thergenr...', 32, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-27 03:44:42 Error: Fatal Error (4): syntax error, unexpected '"</p>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/app/View/APIConcepts/inspirations.ctp, line 35]
+2013-06-27 03:44:42 Error: [FatalErrorException] syntax error, unexpected '"</p>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /APIConcepts/inspirations
+Stack Trace:
+#0 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/thergenr...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/thergenr...', 35, Array)
+#2 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/thergenr...', 35, Array)
+#3 /Users/thergenreter1/Desktop/beINSPIRED/MDD-1306/application/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

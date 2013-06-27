@@ -95,6 +95,11 @@ class APIConcept extends AppModel {
 		}
     }
     
+    public function profiles(){
+	    
+    }
+    
+    // Report abuse
     public function flag($id){
 	    $data = array('This Project has been flagged for review', $id);
 	    return $data;

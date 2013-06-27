@@ -1,5 +1,7 @@
 <?php
 
+App::uses('Sanitize', 'Utility');
+
 class UsersController extends AppController {
 	
 	public function beforeFilter() {
@@ -53,6 +55,8 @@ class UsersController extends AppController {
 
 	// Edit Data, accepts user Id, passed in through settings link in nav menu
     public function edit($id = null) {
+    
+    	// Check if user is authorized
     	if ($id != $this->Auth->user('id')){
     		$this->Session->setFlash(__('You are not authorized'));
     		$this->redirect(array('controller' => 'APIConcepts', 'action'=>'inspirations'));
@@ -92,8 +96,10 @@ class UsersController extends AppController {
         $this->redirect(array('action' => 'index'));
     }
     
-    public function success(){
-	    
+    public function profile(){
+    	$this->request->data = $this->Auth->user();	
+    	$this->set('users', $this->User->profiles());
+    	    
     }
         
 }
