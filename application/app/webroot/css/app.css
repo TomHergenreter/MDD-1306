@@ -212,6 +212,10 @@ input[type="text"][disabled],input[type="password"][disabled],input[type="date"]
 	background-size: 17px;	
 }
 
+.delete {
+	color: #e74c3c;
+}
+
 /*----------Menu----------*/
 
 .top-bar {

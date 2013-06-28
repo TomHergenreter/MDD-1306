@@ -6,6 +6,15 @@
 	</div>
 	<!-- End Header -->
 
+	<!-- Flash Message -->
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="large-6 large-centered columns">
+	        		<p><?php echo $this->Session->flash(); ?></p>
+			</div>
+		</div>	
+    </div>
+    <!-- End Flash Message-->
 	
 	<!--Sign Up Form -->
 	<div class="row">
@@ -41,7 +50,7 @@
 						</div>
 						<div class="row">
 							<div class="large-8 columns">
-								<input type="submit" class="medium button" text="beINSPIRED">
+								<input type="submit" class="medium button" value="SignUp!">
 							</div>
 							<div class="large-4 columns">
 								
@@ -49,7 +58,7 @@
 						</div>
 						<div class="row">
 							<div class="large-12 columns">
-								<p>by clicking beINSPIRED, you agree to the <a>Terms of Service</a></p>
+								<p>by clicking SignUp!, you agree to the <?php echo $this->Html->Link("Terms of Service", array( 'controller' => 'APIConcepts', 'action' => 'safeTerms')); ?></p>
 							</div>
 						</div>
 					</fieldset>

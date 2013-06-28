@@ -43,12 +43,26 @@ class UsersController extends AppController {
 	// Add new user to database
     public function add() {
         if ($this->request->is('post')) {
-            $this->User->create(); // auto-magic create function
-            if ($this->User->save($this->request->data)) { //save data to database
-                $this->Session->setFlash(__('The user has been saved'));
-                $this->redirect(array('controller' => 'APIConcepts', 'action'=>'inspirations')); // If successful, redirect to Inspirations page
-            } else {
-                $this->Session->setFlash(__('The user could not be saved. Please, try again.'));
+        
+        	$currentUsers = $this->User->find('all', array('fields' => array('User.username')));	
+        	
+        	foreach($currentUsers as $username ): 
+        		if($this->request->data['User']['username'] == $username['User']['username']){
+	        		$this->Session->setFlash(__('That Username is Already Taken'));
+	        		return false;
+        		}	
+        	endforeach;
+        	
+        	if(!in_array('', $this->request->data['User']) || !in_array(null, $this->request->data['User'])){
+	            $this->User->create(); // auto-magic create function
+	            if ($this->User->save($this->request->data)) { //save data to database
+	                $this->Session->setFlash(__('Welcome to beInspired! Login to begin'));
+	                $this->redirect(array('controller' => 'APIConcepts', 'action'=>'inspirations')); // If successful, redirect to Inspirations page
+	            } else {
+	                $this->Session->setFlash(__('The User Could Not be Saved. Please, Try Again.'));
+	            }
+            }else{
+	            $this->Session->setFlash(__('Please Complete All Fields'));
             }
         }
     }
@@ -89,10 +103,10 @@ class UsersController extends AppController {
             throw new NotFoundException(__('Invalid user'));
         }
         if ($this->User->delete()) {
-            $this->Session->setFlash(__('User deleted'));
+            $this->Session->setFlash(__('Your Account Has Been Deleted'));
             $this->redirect($this->Auth->logout());
         }
-        $this->Session->setFlash(__('User was not deleted'));
+        $this->Session->setFlash(__('Your Account Was Not Deleted'));
         $this->redirect(array('action' => 'index'));
     }
     

@@ -14,6 +14,10 @@ class APIConceptsController extends AppController {
 	  
     }
     
+    public function safeTerms() {
+	    
+    }
+    
     /*Controls Read and Update functions for API data*/
     public function inspirations() {
     	

@@ -37,7 +37,7 @@ class AppController extends Controller {
 	public $components = array(
         'Session',
         'Auth' => array( // Authorization Configuration
-            'loginRedirect' => array('controller' => 'APIConcepts', 'action' => 'index'),
+            'loginRedirect' => array('controller' => 'APIConcepts', 'action' => 'login'),
             'logoutRedirect' => array('controller' => 'pages', 'action' => 'display', 'home')
         )
     );
@@ -52,7 +52,7 @@ class AppController extends Controller {
 	}
 
     public function beforeFilter() {
-        $this->Auth->allow('index', 'view');
+        $this->Auth->allow('index', 'view', 'safeTerms');
     }	
 
 }

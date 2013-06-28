@@ -81,10 +81,8 @@
 						</div>
 						<!-- Options -->
 						<div class="row">
-							<div class="large-12 columns">
-								<ul class="inline-list">
-								 	<li><?php echo $this->Html->Link("Delete Account", array( 'controller' => 'Users', 'action' => 'delete/' . $id)); ?></li>
-								</ul>
+							<div class="large-8 columns">
+								 	<?php echo $this->Html->Link("Delete", array( 'controller' => 'Users', 'action' => 'delete/' . $id), array('class' => 'medium button alert')); ?>
 							</div>
 						</div>		
 					</fieldset>

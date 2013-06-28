@@ -6,6 +6,15 @@
 	</div>
 	<!-- End Header -->
 	
+	<!-- Flash Message -->
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="large-6 large-centered columns">
+	        		<p><?php echo $this->Session->flash(); ?></p>
+			</div>
+		</div>	
+    </div>
+    <!-- End Flash Message-->
 	
 	<!--Sign In Form -->
 	<div class="row">

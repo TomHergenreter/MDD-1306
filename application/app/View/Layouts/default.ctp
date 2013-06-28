@@ -23,8 +23,7 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo "MDD-1306" ?>:
-		<?php echo $title_for_layout; ?>
+		<?php echo "beINSPIRED" ?>
 	</title>
 	
 	<?php

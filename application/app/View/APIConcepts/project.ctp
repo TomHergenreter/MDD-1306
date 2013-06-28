@@ -19,6 +19,17 @@
 	
 	
 		<div class="project_wrapper">
+		
+			<!-- Flash Message -->
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="large-8 large-centered columns">
+			        		<p><?php echo $this->Session->flash(); ?></p>
+					</div>
+				</div>	
+		    </div>
+		    <!-- End Flash Message-->
+		
 			<div class='details'>
 				<div class='row'>
 					<?php

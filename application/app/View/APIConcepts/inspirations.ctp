@@ -40,7 +40,8 @@
 				endforeach; 
 			?>
 		</ul>
-	</div>	
+	</div>
+	<!-- End Image Grid -->	
 			
 		<div class="button-wrapper">			
 			<!-- Next Button -->
